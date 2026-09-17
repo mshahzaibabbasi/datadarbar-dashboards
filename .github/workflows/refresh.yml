@@ -1,4 +1,6 @@
 name: Refresh dashboards
+# trigger reindex
+
 
 # Scheduled + manual.
 on:
