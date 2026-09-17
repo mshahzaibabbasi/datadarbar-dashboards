@@ -1,4 +1,5 @@
 name: EasyData key health check
+#trigger re-index
 
 # Level 2 proactive safety net: pings the API once a day with a single cheap
 # call. If the key is invalid/expired (or the API is unreachable), the job fails
