@@ -1,0 +1,102 @@
+name: Refresh dashboards
+
+# Scheduled + manual.
+on:
+  schedule:
+    # Weekly: Mondays 06:00 UTC.
+    # Datasets have staggered release calendars (inflation lands in week 1,
+    # trade in the last week, etc.), so a weekly sweep is what guarantees each
+    # dataset is picked up within days of its own release. Re-pulling unchanged
+    # data in between is harmless.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:        # <- the manual override button in the Actions tab
+    inputs:
+      dataset:
+        description: "Which dataset to refresh (or 'all')"
+        default: "all"
+        # NOTE: this input is not yet wired to the steps below — every dataset
+        # is refreshed regardless of what is selected here. Wire it up (e.g. an
+        # `if: inputs.dataset == 'all' || inputs.dataset == 'trade'` on each
+        # step) when you add the second dataset.
+
+# Default to read-only; each job widens only what it needs.
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write           # to commit the rebuilt HTML / data
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # add any deps your converters need here (base refresh.py uses stdlib only)
+      - name: Install deps
+        run: pip install --quiet pandas || true
+
+      # FIX: build.py writes with Path(out).write_text() and does NOT create
+      # parent directories, so a missing public/ crashes the build. public/
+      # is committed (it holds index.html), but this keeps a fresh clone or a
+      # renamed output path from breaking the run.
+      - name: Ensure public/ exists
+        run: mkdir -p public
+
+      - name: Refresh + build Deposits
+        env:
+          EASYDATA_API_KEY: ${{ secrets.EASYDATA_API_KEY }}   # set in repo Settings > Secrets
+        run: |
+          python3 refresh.py --map series_map.deposits.json --start 2019-07 --out data.deposits.json
+          python3 build.py --config config.deposits.js --data data.deposits.json --logo logo.png --out public/deposits.html
+
+      # --- add more datasets by repeating the two lines above with their map/config ---
+      #
+      # RATE LIMIT WARNING before you do: EasyData allows 250 requests/hour and
+      # each series costs one request. Deposits alone is 127. Two datasets of
+      # this size in a single run will sit right on the hourly cap; three will
+      # exceed it, and refresh.py's 429 backoff will make the run crawl rather
+      # than fail loudly. Past ~2 datasets, split them into separate workflow
+      # files scheduled on different days instead of extending this job.
+
+      - name: Commit rebuilt files
+        run: |
+          git config user.name  "dashboard-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add public/*.html data.*.json
+          git commit -m "Auto-refresh dashboards [skip ci]" || echo "nothing to commit"
+          # Guard against a push race if someone commits while the run is going.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      # FIX: the Pages artifact is uploaded HERE, from the job that just built
+      # it. Previously the deploy job did its own actions/checkout, which
+      # defaults to the SHA that TRIGGERED the run — i.e. the commit before the
+      # refresh step pushed the new HTML. That published the previous week's
+      # public/ folder, leaving Pages permanently one refresh behind.
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      # FIX: job-level permissions REPLACE the workflow-level block, so the old
+      # deploy job ran with contents: none, which can fail actions/checkout.
+      # Dropping the checkout entirely removes the need for contents at all.
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # No checkout: this job deploys the artifact uploaded above, so there is
+      # nothing to read out of the repo.
+      - id: deployment
+        uses: actions/deploy-pages@v4

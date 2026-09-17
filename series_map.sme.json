@@ -1,0 +1,27 @@
+{
+  "_comment": "Map each EasyData series key to its dashboard path/unit/flow. Find keys on the portal, or list a dataset's series via GET /api/v1/dataset/{dataset_code}/meta. A series key looks like TS_GP_BOP_WR_M.WR0010. Fill in the CODE_* placeholders. path[] mirrors the dashboard tree; unit must exist in the dataset config's UNITS; flow=false for stock (financing), true for a flow series. refresh.py prints the API's own Unit per series so you can confirm it matches.",
+  "dataset": "SME Financing",
+  "series": [
+    {"code":"CODE_DPB",  "path":["Banking cluster","Domestic Private Banks"],           "unit":"pkr_bn", "flow": false},
+    {"code":"CODE_PSCB", "path":["Banking cluster","Public Sector Commercial Banks"],   "unit":"pkr_bn", "flow": false},
+    {"code":"CODE_ISLB", "path":["Banking cluster","Islamic Banks"],                    "unit":"pkr_bn", "flow": false},
+    {"code":"CODE_SPEC", "path":["Banking cluster","Specialized Banks"],                "unit":"pkr_bn", "flow": false},
+    {"code":"CODE_DFI",  "path":["Banking cluster","DFIs"],                             "unit":"pkr_bn", "flow": false},
+
+    {"code":"CODE_FIX",  "path":["Facility type","Fixed Investment"],                   "unit":"pkr_bn", "flow": false},
+    {"code":"CODE_WC",   "path":["Facility type","Working Capital"],                    "unit":"pkr_bn", "flow": false},
+    {"code":"CODE_TF",   "path":["Facility type","Trade Finance"],                      "unit":"pkr_bn", "flow": false},
+
+    {"code":"CODE_MFG",  "path":["Sector","Manufacturing"],                             "unit":"pkr_bn", "flow": false},
+    {"code":"CODE_SVC",  "path":["Sector","Services"],                                  "unit":"pkr_bn", "flow": false},
+    {"code":"CODE_TRD",  "path":["Sector","Trading"],                                   "unit":"pkr_bn", "flow": false},
+
+    {"code":"CODE_IB",   "path":["Islamic financing","Islamic Banks"],                  "unit":"pkr_bn", "flow": false},
+    {"code":"CODE_IBD",  "path":["Islamic financing","Islamic Banking Divisions"],      "unit":"pkr_bn", "flow": false},
+
+    {"code":"CODE_TOTAL","path":["Total outstanding SME financing"],                    "unit":"pkr_bn", "flow": false},
+    {"code":"CODE_BORR", "path":["No. of SME borrowers"],                               "unit":"count",  "flow": false},
+    {"code":"CODE_NPL",  "path":["SME NPL ratio"],                                      "unit":"pct",    "flow": false},
+    {"code":"CODE_PEN",  "path":["SME share of private-sector credit"],                 "unit":"pct",    "flow": false}
+  ]
+}

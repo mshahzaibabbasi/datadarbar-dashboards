@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Darbar — Dashboards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --primary:#0a4c76;
+    --secondary:#999999;
+    --ink:#000000;
+    --rule:#e6e6e6;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:#fff; color:var(--ink);
+    font-family:"Poppins",system-ui,-apple-system,"Segoe UI",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:820px; margin:0 auto; padding:56px 20px 72px}
+  header{display:flex; align-items:flex-start; justify-content:space-between; gap:24px; margin-bottom:8px}
+  h1{font-size:28px; font-weight:600; letter-spacing:-.01em; margin:0}
+  .sub{color:var(--secondary); font-size:14px; margin:8px 0 0; line-height:1.5}
+  .logo{height:38px; width:auto; flex:none}
+  .rule{height:2px; background:var(--primary); margin:28px 0 8px}
+
+  ul.cards{list-style:none; margin:0; padding:0}
+  ul.cards li{border-bottom:1px solid var(--rule)}
+  a.card{
+    display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;
+    padding:22px 4px; text-decoration:none; color:inherit;
+    transition:background .12s ease, padding-left .12s ease;
+  }
+  a.card:hover{background:#f7fafc; padding-left:10px}
+  a.card .name{font-size:18px; font-weight:600; color:var(--primary)}
+  a.card .desc{font-size:14px; color:var(--secondary); flex:1 1 320px; line-height:1.5}
+  a.card .go{font-size:13px; color:var(--secondary); font-weight:500}
+  a.card:hover .go{color:var(--primary)}
+
+  footer{margin-top:40px; font-size:13px; color:var(--secondary); line-height:1.6}
+  footer a{color:var(--primary)}
+  @media (max-width:560px){
+    .wrap{padding:36px 16px 56px}
+    h1{font-size:23px}
+    .logo{height:30px}
+    a.card{padding:18px 4px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <h1>Data Darbar — Dashboards</h1>
+      <p class="sub">Interactive dashboards built on official Pakistani statistics.<br>
+      Refreshed automatically each week; the data below is as current as the source.</p>
+    </div>
+    <img class="logo" src="logo.png" alt="Data Darbar">
+  </header>
+
+  <div class="rule"></div>
+
+  <!-- Add a dashboard: copy one <li> block and change the href, name and desc. -->
+  <ul class="cards">
+    <li>
+      <a class="card" href="deposits.html">
+        <span class="name">Bank Deposits</span>
+        <span class="desc">Deposits with scheduled banks by holder &amp; sector — 127 series, monthly since Jul&nbsp;2019. Source: SBP.</span>
+        <span class="go">View →</span>
+      </a>
+    </li>
+  </ul>
+
+  <footer>
+    <p>Data Darbar · SBP data. Figures are as published by the source and are not
+    adjusted or restated here.</p>
+  </footer>
+
+</div>
+</body>
+</html>

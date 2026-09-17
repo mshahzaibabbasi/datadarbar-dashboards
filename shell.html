@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+__GA4_HEAD__
+__SENDER_HEAD__
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=__FONT__:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{--primary:#0a4c76;--secondary:#999999;--secondary-20:#e6e6e6;--secondary-40:#cccccc;
+    --primary-10:#e6edf1;--primary-80:#3b6f91;--pos:#1a7f4b;--neg:#c0392b;--ink:#000}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#fff;color:var(--ink);font-family:"__FONT__",-apple-system,BlinkMacSystemFont,sans-serif;
+    -webkit-font-smoothing:antialiased;line-height:1.5;padding:30px 26px 60px}
+  .wrap{max-width:1180px;margin:0 auto}
+  header{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px;
+    padding-bottom:16px;border-bottom:2px solid var(--primary);margin-bottom:22px}
+  .title h1{font-size:24px;font-weight:600;letter-spacing:-.01em;color:var(--primary)}
+  .title p{color:var(--secondary);font-size:13px;margin-top:3px}
+  .brand-logo{height:44px;width:auto;object-fit:contain;flex:0 0 auto}
+  .layout{display:grid;grid-template-columns:300px 1fr;gap:22px;align-items:start}
+  .sidebar{border:1px solid var(--secondary-20);border-radius:10px;padding:16px;position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto}
+  .sidebar h2{font-size:13px;font-weight:600;margin-bottom:2px}
+  .sidebar .hint{font-size:11.5px;color:var(--secondary);margin-bottom:8px}
+  .optsearch{width:100%;border:1px solid var(--secondary-40);border-radius:6px;padding:7px 10px;
+    font-family:inherit;font-size:12.5px;margin-bottom:8px}
+  .optsearch:focus{outline:2px solid var(--primary);outline-offset:1px}
+  .opt.hidden{display:none}
+  .opt{display:flex;align-items:center;gap:8px;padding:5px 6px;border-radius:6px;cursor:pointer;font-size:12.5px}
+  .opt:hover{background:var(--primary-10)}
+  .opt.disabled{opacity:.4;pointer-events:none}
+  .opt input{accent-color:var(--primary);width:15px;height:15px;cursor:pointer;flex:0 0 auto}
+  .opt .txt{flex:1}
+  .opt .sw{width:10px;height:10px;border-radius:2px;flex:0 0 auto}
+  .opt .addkids{font-size:9.5px;border:1px solid var(--secondary-40);border-radius:4px;background:#fff;
+    padding:1px 5px;cursor:pointer;color:var(--secondary);white-space:nowrap}
+  .opt .addkids:hover{border-color:var(--primary);color:var(--primary)}
+  .counter{font-size:11.5px;color:var(--secondary);margin-top:8px}
+  .clearbtn{margin-top:8px;font-size:12px;background:none;border:1px solid var(--secondary-40);border-radius:6px;padding:6px 10px;cursor:pointer;font-family:inherit;color:var(--ink)}
+  .clearbtn:hover{border-color:var(--primary);color:var(--primary)}
+  .controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-bottom:16px}
+  .seg{display:inline-flex;border:1px solid var(--secondary-40);border-radius:7px;overflow:hidden}
+  .seg button{font-family:inherit;font-size:12px;padding:6px 12px;background:#fff;border:none;cursor:pointer;color:var(--ink)}
+  .seg button+button{border-left:1px solid var(--secondary-40)}
+  .seg button.active{background:var(--primary);color:#fff;font-weight:500}
+  .seg button:disabled{opacity:.4;cursor:not-allowed}
+  .ctl-label{font-size:11.5px;color:var(--secondary);font-weight:500;margin-right:2px}
+  .spacer{flex:1}
+  .exp{font-size:12px;background:#fff;border:1px solid var(--secondary-40);border-radius:6px;padding:6px 11px;cursor:pointer;font-family:inherit;color:var(--ink)}
+  .exp:hover{border-color:var(--primary);color:var(--primary)}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:16px}
+  .stat{border:1px solid var(--secondary-20);border-radius:8px;padding:13px 14px;position:relative;overflow:hidden}
+  .stat::after{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--barc)}
+  .stat .nm{font-size:12px;font-weight:600;height:34px;line-height:1.3}
+  .stat .v{font-size:22px;font-weight:600;color:var(--primary);font-variant-numeric:tabular-nums;margin-top:3px}
+  .stat .u{font-size:11px;color:var(--secondary);font-weight:400;margin-left:3px}
+  .stat .row{display:flex;gap:14px;margin-top:8px;font-size:11px;font-variant-numeric:tabular-nums}
+  .stat .row div{display:flex;flex-direction:column;gap:1px}
+  .stat .row span:first-child{color:var(--secondary);font-size:10px}
+  .up{color:var(--pos);font-weight:600}.down{color:var(--neg);font-weight:600}.flat{color:var(--secondary);font-weight:600}
+  .panel{border:1px solid var(--secondary-20);border-radius:10px;padding:16px 18px 18px}
+  .panel h3{font-size:14px;font-weight:600}
+  .panel .sub{font-size:12px;color:var(--secondary);margin:1px 0 12px}
+  .chartbox{position:relative;height:420px}
+  .empty{border:1px dashed var(--secondary-40);border-radius:10px;padding:48px 20px;text-align:center;color:var(--secondary)}
+  footer{margin-top:24px;padding-top:14px;border-top:1px solid var(--secondary-20);color:var(--secondary);font-size:11.5px;line-height:1.7}
+  .gate-overlay{position:fixed;inset:0;background:rgba(10,28,44,.55);display:flex;align-items:center;justify-content:center;padding:20px;z-index:1000}
+  .gate-card{background:#fff;border-radius:14px;max-width:420px;width:100%;padding:24px 20px 20px;position:relative;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+  .gate-close{position:absolute;top:12px;right:14px;background:none;border:none;font-size:22px;line-height:1;color:var(--secondary);cursor:pointer}
+  .gate-continue{margin-top:14px;width:100%;background:#fff;color:var(--ink);border:1px solid var(--secondary-40);border-radius:8px;padding:10px 14px;font-family:inherit;font-size:13px;cursor:pointer}
+  @media(max-width:880px){.layout{grid-template-columns:1fr}.sidebar{position:static;max-height:none}}
+  @media(max-width:640px){
+    body{padding:16px 12px 44px}
+    header{flex-wrap:nowrap;align-items:center;gap:10px;border-bottom-width:1px;margin-bottom:16px;padding-bottom:12px}
+    .title h1{font-size:18px}.title p{font-size:11px}.brand-logo{height:26px}
+    .sidebar.collapsed #optlist,.sidebar.collapsed .counter,.sidebar.collapsed .clearbtn{display:none}
+    .sidebar h2{cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+    .sidebar h2::after{content:"▾";color:var(--secondary);font-size:12px}
+    .sidebar.collapsed h2::after{content:"▸"}
+    #optlist{max-height:42vh;overflow:auto}
+    .controls .ctl-label{width:100%;margin:4px 0 -3px;font-weight:600}
+    .seg{width:100%;overflow-x:auto}.seg button{flex:1 0 auto;min-height:40px;white-space:nowrap}
+    .spacer{display:none}.exp{flex:1 1 46%;text-align:center;min-height:42px}
+    .stats{grid-template-columns:1fr}.chartbox{height:300px}
+    .gate-card{max-width:none}
+  }
+  @media(max-width:380px){.chartbox{height:260px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="title"><h1 id="appTitle"></h1><p id="appSub"></p></div>
+    __LOGO_IMG__
+  </header>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <h2 id="sidebarToggle">Choose indicators</h2>
+      <div class="hint">Select any number. Nested groups drill down; “stack children” loads a full group.</div>
+      <input type="search" id="optsearch" class="optsearch" placeholder="Search indicators…" autocomplete="off">
+      <div id="optlist"></div>
+      <div class="counter" id="counter"></div>
+      <button class="clearbtn" id="clear">Clear all</button>
+    </aside>
+    <main>
+      <div class="controls">
+        <span class="ctl-label">Frequency</span>
+        <div class="seg" id="freqSeg"></div>
+        <span class="ctl-label" style="margin-left:8px">View</span>
+        <div class="seg" id="viewSeg">
+          <button data-v="abs" class="active">Absolute</button>
+          <button data-v="stack">Stacked area</button>
+          <button data-v="index">Indexed (=100)</button>
+          <button data-v="share">% share</button>
+        </div>
+        <span class="spacer"></span>
+        <button class="exp" id="pngBtn">Download PNG</button>
+        <button class="exp" id="csvBtn">Export CSV</button>
+      </div>
+      <div class="stats" id="stats"></div>
+      <div class="panel">
+        <h3 id="chartTitle">Select an indicator to begin</h3>
+        <div class="sub" id="chartSub"></div>
+        <div class="chartbox"><canvas id="chart"></canvas></div>
+      </div>
+      <div id="emptyState" class="empty" style="display:none">Pick one or more indicators from the left.</div>
+    </main>
+  </div>
+  <footer><span id="footNote"></span></footer>
+</div>
+__GATE_MODAL__
+<script>
+__ENGINE__
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Never commit the API key, whatever form it takes locally
+.env
+*.key
+
+# Local raw API pulls — transit/archive only. data.<name>.json supersedes
+# these and the dashboards embed their own data, so there is nothing to gain
+# from versioning them.
+data_raw/

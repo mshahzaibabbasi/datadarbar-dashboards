@@ -1,0 +1,71 @@
+name: EasyData key health check
+
+# Level 2 proactive safety net: pings the API once a day with a single cheap
+# call. If the key is invalid/expired (or the API is unreachable), the job fails
+# AND opens/updates a GitHub Issue — which emails you — so you learn the key is
+# dead on day one, not after the weekly refresh has already served stale data.
+#
+# Pair with Level 1: when you generate the key, note its End Date from EasyData
+# and set a calendar reminder for 2 days before that date to rotate it.
+
+on:
+  schedule:
+    - cron: "0 5 * * *"     # daily, 05:00 UTC (an hour before the weekly refresh)
+  workflow_dispatch:         # manual "check now" button
+
+permissions:
+  contents: read
+  issues: write              # to open an alert issue on failure
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Ping EasyData with the API key
+        id: ping
+        env:
+          EASYDATA_API_KEY: ${{ secrets.EASYDATA_API_KEY }}
+        run: |
+          # Use any stable, always-present series as the canary. Total Deposits:
+          python3 refresh.py --healthcheck "TS_GP_BAM_DDCDH_M.DDH00137000"
+
+      - name: Open alert issue if the key check failed
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = "⚠️ EasyData API key health check failed";
+            const body = [
+              "The daily EasyData key health check failed. The most likely cause is an",
+              "**expired or invalid API key** (EasyData keys expire every 90 days).",
+              "",
+              "**To fix:** EasyData → My Data Basket → My Account → Generate API Key →",
+              "copy → repo Settings → Secrets and variables → Actions → update",
+              "`EASYDATA_API_KEY`. Then re-run this workflow (or the weekly refresh).",
+              "",
+              "If the key is fine, the API may be temporarily down — re-run to confirm.",
+              "",
+              `Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+            ].join("\n");
+            // avoid piling up duplicates: reuse an open issue with this title if present
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: "open", labels: "easydata-key"
+            });
+            if (existing.data.length) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.data[0].number,
+                body: "Health check failed again.\n\n" + body
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ["easydata-key"]
+              });
+            }

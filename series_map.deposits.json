@@ -1,0 +1,1350 @@
+{
+ "_comment": "Deposits by category of holders. 137 series, monthly, stock, PKR. Tree: Total > {Non-resident, Residents>{Govt, NFPSE, NBFI, Private Sector(ISIC tree), Trusts, Individuals, Other}}. VERIFY the unit (pkr_mn placeholder) against one data call.",
+ "dataset": "Deposits by Category of Holders",
+ "series": [
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00011000",
+   "path": [
+    "Non-resident deposits"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00012000",
+   "path": [
+    "Non-resident deposits",
+    "Non-Residents — Official"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00013000",
+   "path": [
+    "Non-resident deposits",
+    "Non-Residents — Business"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00014000",
+   "path": [
+    "Non-resident deposits",
+    "Non-Residents — Personal"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00015000",
+   "path": [
+    "Residents"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00016000",
+   "path": [
+    "Residents",
+    "Government"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00017000",
+   "path": [
+    "Residents",
+    "Government",
+    "Federal Government"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00018000",
+   "path": [
+    "Residents",
+    "Government",
+    "Provincial Governments"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00019000",
+   "path": [
+    "Residents",
+    "Non-Financial Public Sector Enterprises"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00020000",
+   "path": [
+    "Residents",
+    "Non-Bank Financial Institutions"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00021000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00022000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Agriculture, forestry & fishing"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00023000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Agriculture, forestry & fishing",
+    "Crop & animal production"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00024000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Agriculture, forestry & fishing",
+    "Forestry & logging"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00025000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Agriculture, forestry & fishing",
+    "Fishing & aquaculture"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00026000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Mining & quarrying"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00027000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Mining & quarrying",
+    "Mining of coal & lignite"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00028000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Mining & quarrying",
+    "Extraction of crude petroleum & natural gas"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00029000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Mining & quarrying",
+    "Mining of metal ores"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00030000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Mining & quarrying",
+    "Other mining & quarrying"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00031000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Mining & quarrying",
+    "Mining support service activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00032000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00033000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Food products"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00034000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Beverages"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00035000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Tobacco products"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00036000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Textiles"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00037000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Wearing apparel"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00038000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Leather & related products"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00039000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Wood & products of wood"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00040000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Paper & paper products"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00041000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Printing & reproduction of recorded media"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00042000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Coke & refined petroleum products"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00043000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Chemicals & chemical products"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00044000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Pharmaceuticals"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00045000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Rubber & plastics products"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00046000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Other non-metallic mineral products"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00047000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Basic metals"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00048000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Fabricated metal products"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00049000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Computer, electronic & optical products"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00050000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Electrical equipment"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00051000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Machinery & equipment"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00052000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Motor vehicles, trailers & semi-trailers"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00053000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Other transport equipment"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00054000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Furniture"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00055000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Other manufacturing"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00056000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Manufacturing",
+    "Repair & installation of machinery"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00057000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Electricity, gas, steam & AC supply"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00058000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Electricity, gas, steam & AC supply",
+    "Electric power generation, transmission & distribution"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00059000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Electricity, gas, steam & AC supply",
+    "Manufacture of gas; distribution through mains"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00060000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Electricity, gas, steam & AC supply",
+    "Steam & air conditioning supply"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00061000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Water supply, sewerage, waste"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00062000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Water supply, sewerage, waste",
+    "Water collection, treatment & supply"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00063000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Water supply, sewerage, waste",
+    "Sewerage"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00064000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Water supply, sewerage, waste",
+    "Waste collection, treatment & disposal"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00065000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Water supply, sewerage, waste",
+    "Remediation & other waste management"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00066000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Construction"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00067000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Construction",
+    "Construction of buildings"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00068000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Construction",
+    "Civil engineering"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00069000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Construction",
+    "Specialized construction activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00070000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Wholesale & retail trade"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00071000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Wholesale & retail trade",
+    "Wholesale & retail trade & repair of motor vehicles"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00072000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Wholesale & retail trade",
+    "Wholesale trade (excl motor vehicles)"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00073000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Wholesale & retail trade",
+    "Retail trade (excl motor vehicles)"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00074000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Transportation & storage"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00075000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Transportation & storage",
+    "Land transport & transport via pipelines"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00076000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Transportation & storage",
+    "Water transport"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00077000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Transportation & storage",
+    "Air transport"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00078000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Transportation & storage",
+    "Warehousing & support for transportation"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00079000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Transportation & storage",
+    "Courier activities (excl national post)"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00080000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Accommodation & food service"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00081000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Accommodation & food service",
+    "Accommodation"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00082000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Accommodation & food service",
+    "Food & beverage service activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00083000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Information & communication"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00084000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Information & communication",
+    "Publishing activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00085000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Information & communication",
+    "Motion picture, video, TV, sound recording"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00086000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Information & communication",
+    "Programming & broadcasting activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00087000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Information & communication",
+    "Telecommunications"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00088000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Information & communication",
+    "Computer programming & consultancy"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00089000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Information & communication",
+    "Information service activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00090000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Real estate activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00091000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Professional, scientific & technical"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00092000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Professional, scientific & technical",
+    "Legal & accounting activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00093000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Professional, scientific & technical",
+    "Head offices; management consultancy"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00094000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Professional, scientific & technical",
+    "Architecture & engineering; testing"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00095000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Professional, scientific & technical",
+    "Scientific research & development"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00096000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Professional, scientific & technical",
+    "Advertising & market research"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00097000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Professional, scientific & technical",
+    "Other professional/scientific/technical"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00098000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Professional, scientific & technical",
+    "Veterinary activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00099000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Administrative & support"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00100000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Administrative & support",
+    "Rental & leasing activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00101000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Administrative & support",
+    "Employment activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00102000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Administrative & support",
+    "Travel agency & tour operator"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00103000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Administrative & support",
+    "Security & investigation activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00104000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Administrative & support",
+    "Services to buildings & landscape"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00105000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Administrative & support",
+    "Office administrative & support"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00106000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Education"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00107000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Education",
+    "Pre-primary & primary education"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00108000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Education",
+    "General secondary education"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00109000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Education",
+    "Technical & vocational secondary education"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00110000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Education",
+    "Higher education"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00111000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Education",
+    "Sports & recreation education"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00112000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Education",
+    "Cultural education"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00113000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Education",
+    "Other education n.e.c."
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00114000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Education",
+    "Educational support activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00115000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Human health & social work"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00116000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Human health & social work",
+    "Human health activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00117000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Human health & social work",
+    "Residential care activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00118000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Human health & social work",
+    "Social work activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00119000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Arts, entertainment & recreation"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00120000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Arts, entertainment & recreation",
+    "Creative, arts & entertainment"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00121000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Arts, entertainment & recreation",
+    "Libraries, archives, museums"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00122000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Arts, entertainment & recreation",
+    "Sports, amusement & recreation"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00123000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Other service activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00124000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Other service activities",
+    "Activities of membership organizations"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00125000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Other service activities",
+    "Repair of computers & personal goods"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00126000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Other service activities",
+    "Other personal service activities"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00127000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Other service activities",
+    "Households as employers of domestic personnel"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00128000",
+   "path": [
+    "Residents",
+    "Private Sector (Business)",
+    "Other service activities",
+    "Undifferentiated goods/services of households"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00129000",
+   "path": [
+    "Residents",
+    "Trust Funds & Non-Profit Organizations"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00130000",
+   "path": [
+    "Residents",
+    "Trust Funds & Non-Profit Organizations",
+    "Private Trusts & NPOs"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00131000",
+   "path": [
+    "Residents",
+    "Trust Funds & Non-Profit Organizations",
+    "NGOs / CBOs"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00132000",
+   "path": [
+    "Residents",
+    "Individuals"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00133000",
+   "path": [
+    "Residents",
+    "Individuals",
+    "Salaried persons"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00134000",
+   "path": [
+    "Residents",
+    "Individuals",
+    "Self-Employed"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00135000",
+   "path": [
+    "Residents",
+    "Individuals",
+    "Other Personal"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00136000",
+   "path": [
+    "Residents",
+    "Other"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_DDCDH_M.DDH00137000",
+   "path": [
+    "Total Deposits"
+   ],
+   "unit": "pkr_mn",
+   "flow": false
+  }
+ ]
+}
