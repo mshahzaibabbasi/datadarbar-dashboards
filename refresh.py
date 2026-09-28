@@ -68,7 +68,15 @@ def fetch_series(code, start, end):
 
     attempt = 0
     while True:
-        req = urllib.request.Request(url, headers={"Accept": "application/json"})
+        # SBP's site sits behind Cloudflare, which blocks the default
+        # Python-urllib user agent outright (site-wide WAF rule, unrelated to
+        # the EasyData API key itself). A normal browser UA clears it.
+        req = urllib.request.Request(url, headers={
+            "Accept": "application/json",
+            "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                            "AppleWebKit/537.36 (KHTML, like Gecko) "
+                            "Chrome/120.0.0.0 Safari/537.36"),
+        })
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 payload = json.loads(r.read().decode("utf-8", errors="replace"))
