@@ -1,0 +1,2220 @@
+{
+ "_comment": "Export receipts + import payments by commodity group (HS-based). Flat one level under Exports/Imports \u2014 the catalog carries no deeper commodity sub-hierarchy. flow=true (monthly receipts/payments, TTM-eligible). UNIT PLACEHOLDER: the catalog's Unit column just says 'USD' with no scale \u2014 VERIFY against refresh.py's first real run (it prints the API's own Unit per series) before trusting axis labels, same as series_map.deposits.json's original caveat.",
+ "dataset": "Trade by Commodity Group",
+ "series": [
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00010",
+   "path": [
+    "Exports",
+    "Live Animals and Animal. Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00020",
+   "path": [
+    "Exports",
+    "Live Animals"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00030",
+   "path": [
+    "Exports",
+    "Meat and Edible Meat Offal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00040",
+   "path": [
+    "Exports",
+    "Fish and Crustaceans"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00050",
+   "path": [
+    "Exports",
+    "Dairy; Eggs; Honey and Edible Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00060",
+   "path": [
+    "Exports",
+    "Products of Animal origin NES"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00070",
+   "path": [
+    "Exports",
+    "Vegetable Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00080",
+   "path": [
+    "Exports",
+    "Live Trees and other Plants"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00090",
+   "path": [
+    "Exports",
+    "Edible Vegetables"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00100",
+   "path": [
+    "Exports",
+    "Edible Fruits and Nuts"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00110",
+   "path": [
+    "Exports",
+    "Coffee; Tea; Mate and Spices"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00120",
+   "path": [
+    "Exports",
+    "Cereals"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00130",
+   "path": [
+    "Exports",
+    "Products of Milling Industry"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00140",
+   "path": [
+    "Exports",
+    "Oil Seeds and Oleaginous Fruit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00150",
+   "path": [
+    "Exports",
+    "Other Vegetable Saps and Extracts; Lac;Gums;Resins"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00160",
+   "path": [
+    "Exports",
+    "Vegetable Planting Materials"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00170",
+   "path": [
+    "Exports",
+    "Animal or Vegetable Fats; Oils and Waxes"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00180",
+   "path": [
+    "Exports",
+    "Animal or Vegetable Fats; Oils & Cleavage Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00190",
+   "path": [
+    "Exports",
+    "Prepared Foodstuffs; Beverages; Spirits; Vinegar and Tobacco"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00200",
+   "path": [
+    "Exports",
+    "Preparation of Meat; Fish and Crustaceans etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00210",
+   "path": [
+    "Exports",
+    "Sugars and Sugar Confectionery"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00220",
+   "path": [
+    "Exports",
+    "Cocoa and Cocoa Preparations"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00230",
+   "path": [
+    "Exports",
+    "Preparation of Cereals; Flour and Starch etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00240",
+   "path": [
+    "Exports",
+    "Preparation of Vegetables; Fruits and Nuts etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00250",
+   "path": [
+    "Exports",
+    "Miscellaneous Edible Preparations"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00260",
+   "path": [
+    "Exports",
+    "Beverages; Spirits and Vinegar"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00270",
+   "path": [
+    "Exports",
+    "Residues from Food Industries; Animal Fodder"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00280",
+   "path": [
+    "Exports",
+    "Tobacco and Manufactured Tobacco Substitutes"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00290",
+   "path": [
+    "Exports",
+    "Mineral Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00300",
+   "path": [
+    "Exports",
+    "Salt; Sulfur; Earth's and Stones; Lime and Stone"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00310",
+   "path": [
+    "Exports",
+    "Ores Slag and Ash"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00320",
+   "path": [
+    "Exports",
+    "Mineral Fuels; Oils and Their Distillation Product"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00330",
+   "path": [
+    "Exports",
+    "Products of Chemical or Allied Industries"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00340",
+   "path": [
+    "Exports",
+    "Organic or Inorganic Compounds of Precious Metals"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00350",
+   "path": [
+    "Exports",
+    "Organic Chemicals"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00360",
+   "path": [
+    "Exports",
+    "Pharmaceutical Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00370",
+   "path": [
+    "Exports",
+    "Fertilizers"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00380",
+   "path": [
+    "Exports",
+    "Tanning or Dyeing Extracts"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00390",
+   "path": [
+    "Exports",
+    "Oils & Resinoids; Perfumery or Toilet Preparation"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00400",
+   "path": [
+    "Exports",
+    "Soap; Org. Surface-Active agents ;Washing Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00410",
+   "path": [
+    "Exports",
+    "Albuminoidal Substances; Starches; Glues; Enzymes"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00420",
+   "path": [
+    "Exports",
+    "Explosives; Pyrotechnic Products and Matches etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00430",
+   "path": [
+    "Exports",
+    "Photographic or Cinematographic Goods"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00440",
+   "path": [
+    "Exports",
+    "Miscellaneous Chemical Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00450",
+   "path": [
+    "Exports",
+    "Plastics and articles thereof; Rubber and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00460",
+   "path": [
+    "Exports",
+    "Plastics and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00470",
+   "path": [
+    "Exports",
+    "Rubbers and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00480",
+   "path": [
+    "Exports",
+    "Raw Hide and Skins; Leather; Fur skins and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00490",
+   "path": [
+    "Exports",
+    "Raw Hides; Skins and Leather other than Fur skins"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00500",
+   "path": [
+    "Exports",
+    "articles of Leather; Travel Goods and Handbags etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00510",
+   "path": [
+    "Exports",
+    "Fur skins and Artific.ial Fur; Manufactures thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00520",
+   "path": [
+    "Exports",
+    "Wood and articles of Wood"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00530",
+   "path": [
+    "Exports",
+    "Wood and articles of Wood; Wood Charcoal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00540",
+   "path": [
+    "Exports",
+    "Cork and articles of Cork"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00550",
+   "path": [
+    "Exports",
+    "Manufactured of Straw; Basket ware and Wickerwork"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00560",
+   "path": [
+    "Exports",
+    "Pulp of Wood or of other Fibrous Cellulosic Material"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00570",
+   "path": [
+    "Exports",
+    "Pulp of Wood or other Fibrous Cellulosic Materials"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00580",
+   "path": [
+    "Exports",
+    "Paper and Paperboard; articles of Paper Pulp"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00590",
+   "path": [
+    "Exports",
+    "Books; Newspapers & Products of Printing Industry"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00600",
+   "path": [
+    "Exports",
+    "Textiles and Textile articles"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00610",
+   "path": [
+    "Exports",
+    "Silk"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00620",
+   "path": [
+    "Exports",
+    "Wool; Fine or Coarse Animal Hair; Horsehair Yarn"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00630",
+   "path": [
+    "Exports",
+    "Cotton"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00640",
+   "path": [
+    "Exports",
+    "Other Vegetable Textile Fibres; Paper Yarn etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00650",
+   "path": [
+    "Exports",
+    "Man-Made Filaments"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00660",
+   "path": [
+    "Exports",
+    "Man-Made Staple Fibers"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00670",
+   "path": [
+    "Exports",
+    "Wadding; Felt and Nonwovens; Special Yarn; Twine"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00680",
+   "path": [
+    "Exports",
+    "Carpets and other Textile Floor Coverings"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00690",
+   "path": [
+    "Exports",
+    "Special Woven Fabrics; Tufted Textiles Fabrics; Lace"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00700",
+   "path": [
+    "Exports",
+    "Impregnated; Coated; Covered or Lamented Tex. Fab"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00710",
+   "path": [
+    "Exports",
+    "Knitted or Cro.cheted Fabrics"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00720",
+   "path": [
+    "Exports",
+    "articles of Apparel & Clothingg Acces.sories Knit/Cr"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00730",
+   "path": [
+    "Exports",
+    "articles of Apparel/Clothingg Acces. not Knitted /Cro"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00740",
+   "path": [
+    "Exports",
+    "Other Made-up Textile articles; Sets; Worn Clothing"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00750",
+   "path": [
+    "Exports",
+    "Footwear; Headgear; Umbrellas; Walking Sticks etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00760",
+   "path": [
+    "Exports",
+    "Footwear; Gaiters & the Like; Parts of such Article"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00770",
+   "path": [
+    "Exports",
+    "Headgear and other Parts thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00780",
+   "path": [
+    "Exports",
+    "Umbrellas; Walking-Sticks; hips Riding-Cro.ps;Parts"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00790",
+   "path": [
+    "Exports",
+    "Prep Feathers; Human Hair/Artcls; Artific. Flowers"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00800",
+   "path": [
+    "Exports",
+    "articles of Stone; Plaster; Cement; Asbestos; Mica or similar Materials"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00810",
+   "path": [
+    "Exports",
+    "articles of Stone; Plaster; Cement; Mica etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00820",
+   "path": [
+    "Exports",
+    "Ceramic Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00830",
+   "path": [
+    "Exports",
+    "Glass and Glassware"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00840",
+   "path": [
+    "Exports",
+    "Natural or Cultured Pearls; Precious or Semi-Precious Stones; Metals"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00850",
+   "path": [
+    "Exports",
+    "Pearls; Stones; Precious Metals; Imitation Jewelry"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00860",
+   "path": [
+    "Exports",
+    "Base Metals and articles or Base Metal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00870",
+   "path": [
+    "Exports",
+    "Iron and Steel"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00880",
+   "path": [
+    "Exports",
+    "articles of Iron or Steel"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00890",
+   "path": [
+    "Exports",
+    "Copper and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00900",
+   "path": [
+    "Exports",
+    "Nickel and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00910",
+   "path": [
+    "Exports",
+    "Aluminum and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00920",
+   "path": [
+    "Exports",
+    "Lead and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00930",
+   "path": [
+    "Exports",
+    "Zinc and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00940",
+   "path": [
+    "Exports",
+    "Tin and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00950",
+   "path": [
+    "Exports",
+    "Other Base Metals; Cermets; articles thereof NES"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00960",
+   "path": [
+    "Exports",
+    "Tools; Implements; Cutlery;Spoons & Forks of Base"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00970",
+   "path": [
+    "Exports",
+    "Miscellaneous articles of Base Metal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00980",
+   "path": [
+    "Exports",
+    "Machinery and Mechanical Appliances"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA00990",
+   "path": [
+    "Exports",
+    "Nuclear Reactors; Boilers; Machinery and Appliance"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01000",
+   "path": [
+    "Exports",
+    "Electrical Machinery & Equipment and Parts thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01010",
+   "path": [
+    "Exports",
+    "Vehicles; Aircraft; Vessels and Associated Transport Equipment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01020",
+   "path": [
+    "Exports",
+    "Railway or Tramway Locomotives rolling Stock/Parts"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01030",
+   "path": [
+    "Exports",
+    "Vehicles other than Railway /Tramway Rolling Stock"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01040",
+   "path": [
+    "Exports",
+    "Aircraft; Spacecraft and Parts Thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01050",
+   "path": [
+    "Exports",
+    "Ships; Boats and Floating Structures"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01060",
+   "path": [
+    "Exports",
+    "Optical; Photographic; Cinematographer; Measuring; Checking; Precision Apparatus"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01070",
+   "path": [
+    "Exports",
+    "Optical; Photographic; Measuring and Medical Inst"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01080",
+   "path": [
+    "Exports",
+    "Clocks and Watches and Parts Thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01090",
+   "path": [
+    "Exports",
+    "Musical Instruments; Parts and Acces.sories thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01100",
+   "path": [
+    "Exports",
+    "Arms and Ammunition; Parts and Acces.sories thereof [EXPA01100]"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01110",
+   "path": [
+    "Exports",
+    "Arms and Ammunition; Parts and Acces.sories thereof [EXPA01110]"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01120",
+   "path": [
+    "Exports",
+    "Miscellaneous Manufactured articles [EXPA01120]"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01130",
+   "path": [
+    "Exports",
+    "Furniture; Bedding; Mattresses; Lamps and lighting"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01140",
+   "path": [
+    "Exports",
+    "Toys; Games and Sports Requisites; Parts & Acces"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01150",
+   "path": [
+    "Exports",
+    "Miscellaneous Manufactured articles [EXPA01150]"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01160",
+   "path": [
+    "Exports",
+    "Works of Arts; Collectors; Pieces; Antiques and Special Transactions NES"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01170",
+   "path": [
+    "Exports",
+    "Works of Arts; Collectors' pieces and Antiques"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01180",
+   "path": [
+    "Exports",
+    "Special Classification Provisions"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01190",
+   "path": [
+    "Exports",
+    "Export Receipts through Banks"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01200",
+   "path": [
+    "Exports",
+    "Freight on Export"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01210",
+   "path": [
+    "Exports",
+    "Export Receipts Banks (fob)"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01220",
+   "path": [
+    "Exports",
+    "Other exports"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOM_M.EXPA01230",
+   "path": [
+    "Exports",
+    "Total Export as per BOP"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00010",
+   "path": [
+    "Imports",
+    "Live Animals and Animals Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00020",
+   "path": [
+    "Imports",
+    "Live Animals"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00030",
+   "path": [
+    "Imports",
+    "Meat and Edible Meat Offal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00040",
+   "path": [
+    "Imports",
+    "Fish and Crustaceans"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00050",
+   "path": [
+    "Imports",
+    "Dairy; Eggs; Honey and Edible Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00060",
+   "path": [
+    "Imports",
+    "Products of Animal origin NES"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00070",
+   "path": [
+    "Imports",
+    "Vegetable Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00080",
+   "path": [
+    "Imports",
+    "Live Trees and other Plants"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00090",
+   "path": [
+    "Imports",
+    "Edible Vegetables"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00100",
+   "path": [
+    "Imports",
+    "Edible Fruits and Nuts"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00110",
+   "path": [
+    "Imports",
+    "Coffee; Tea; Mate and Spices"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00120",
+   "path": [
+    "Imports",
+    "Cereals"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00130",
+   "path": [
+    "Imports",
+    "Products of Milling Industry"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00140",
+   "path": [
+    "Imports",
+    "Oil Seeds and Oleaginous Fruit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00150",
+   "path": [
+    "Imports",
+    "Other Vegetable Saps and Extracts; Lac;Gums;Resins"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00160",
+   "path": [
+    "Imports",
+    "Vegetable Planting Materials"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00170",
+   "path": [
+    "Imports",
+    "Animal or Vegetable Fats; Oils and Waxes"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00180",
+   "path": [
+    "Imports",
+    "Animal or Vegetable Fats; Oils & Cleavage Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00190",
+   "path": [
+    "Imports",
+    "Prepared Foodstuffs; Beverages; Spirits; Vinegar and Tobacco"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00200",
+   "path": [
+    "Imports",
+    "Preparation of Meat; Fish and Crustaceans etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00210",
+   "path": [
+    "Imports",
+    "Sugars and Sugar Confectionery"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00220",
+   "path": [
+    "Imports",
+    "Cocoa and Cocoa Preparations"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00230",
+   "path": [
+    "Imports",
+    "Preparation of Cereals; Flour and Starch etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00240",
+   "path": [
+    "Imports",
+    "Preparation of Vegetables; Fruits and Nuts etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00250",
+   "path": [
+    "Imports",
+    "Miscellaneous Edible Preparations"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00260",
+   "path": [
+    "Imports",
+    "Beverages; Spirits and Vinegar"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00270",
+   "path": [
+    "Imports",
+    "Residues from Food Industries; Animal Fodder"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00280",
+   "path": [
+    "Imports",
+    "Tobacco and Manufactured Tobacco Substitutes"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00290",
+   "path": [
+    "Imports",
+    "Mineral Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00300",
+   "path": [
+    "Imports",
+    "Salt; Sulfur; Earth's and Stones; Lime and Stone"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00310",
+   "path": [
+    "Imports",
+    "Ores Slag and Ash"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00320",
+   "path": [
+    "Imports",
+    "Mineral Fuels; Oils and Their Distillation Product"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00330",
+   "path": [
+    "Imports",
+    "Products of Chemical or Allied Industries"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00340",
+   "path": [
+    "Imports",
+    "Organic or Inorganic Compounds of Precious Metals"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00350",
+   "path": [
+    "Imports",
+    "Organic Chemicals"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00360",
+   "path": [
+    "Imports",
+    "Pharmaceutical Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00370",
+   "path": [
+    "Imports",
+    "Fertilizers"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00380",
+   "path": [
+    "Imports",
+    "Tanning or Dyeing Extracts"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00390",
+   "path": [
+    "Imports",
+    "Oils & Resinoids; Perfumery or Toilet Preparation"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00400",
+   "path": [
+    "Imports",
+    "Soap; Org. Surface-Active agents ;Washing Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00410",
+   "path": [
+    "Imports",
+    "Albuminoidal Substances; Starches; Glues; Enzymes"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00420",
+   "path": [
+    "Imports",
+    "Explosives; Pyrotechnic Products and Matches etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00430",
+   "path": [
+    "Imports",
+    "Photographic or Cinematographic Goods"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00440",
+   "path": [
+    "Imports",
+    "Miscellaneous Chemical Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00450",
+   "path": [
+    "Imports",
+    "Plastics and articles thereof; Rubber and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00460",
+   "path": [
+    "Imports",
+    "Plastics and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00470",
+   "path": [
+    "Imports",
+    "Rubbers and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00480",
+   "path": [
+    "Imports",
+    "Raw Hide and Skins; Leather; Fur skins and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00490",
+   "path": [
+    "Imports",
+    "Raw Hides; Skins and Leather other than Fur skins"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00500",
+   "path": [
+    "Imports",
+    "articles of Leather; Travel Goods and Handbags etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00510",
+   "path": [
+    "Imports",
+    "Fur skins and Artificial Fur; Manufactures thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00520",
+   "path": [
+    "Imports",
+    "Wood and articles of Wood"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00530",
+   "path": [
+    "Imports",
+    "Wood and articles of Wood; Wood Charcoal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00540",
+   "path": [
+    "Imports",
+    "Cork and articles of Cork"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00550",
+   "path": [
+    "Imports",
+    "Manufactured of Straw; Basket ware and Wickerwork"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00560",
+   "path": [
+    "Imports",
+    "Pulp of Wood or of other Fibrous Cellulosic Material"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00570",
+   "path": [
+    "Imports",
+    "Pulp of Wood or other Fibrous Cellulosic Materials"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00580",
+   "path": [
+    "Imports",
+    "Paper and Paperboard; articles of Paper Pulp"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00590",
+   "path": [
+    "Imports",
+    "Books; Newspapers & Products of Printing Industry"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00600",
+   "path": [
+    "Imports",
+    "Textiles and Textile articles"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00610",
+   "path": [
+    "Imports",
+    "Silk"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00620",
+   "path": [
+    "Imports",
+    "Wool; Fine or Coarse Animal Hair; Horsehair Yarn"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00630",
+   "path": [
+    "Imports",
+    "Cotton"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00640",
+   "path": [
+    "Imports",
+    "Other Vegetable Textile Fibres; Paper Yarn etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00650",
+   "path": [
+    "Imports",
+    "Man-Made Filaments"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00660",
+   "path": [
+    "Imports",
+    "Man-Made Staple Fibers"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00670",
+   "path": [
+    "Imports",
+    "Wadding; Felt and Nonwovens; Special Yarn; Twine"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00680",
+   "path": [
+    "Imports",
+    "Carpets and other Textile Floor Coverings"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00690",
+   "path": [
+    "Imports",
+    "Special Woven Fabrics;Tufted Textiles Fabrics;Lace"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00700",
+   "path": [
+    "Imports",
+    "Impregnated; Coated; Covered or Lamented Tex. Fab"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00710",
+   "path": [
+    "Imports",
+    "Knitted or Crocheted Fabrics"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00720",
+   "path": [
+    "Imports",
+    "articles of Apparel & clothingg Acces.sories Knit/Cr"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00730",
+   "path": [
+    "Imports",
+    "articles of Apparel/clothingg Acces. not Knitted /Cro"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00740",
+   "path": [
+    "Imports",
+    "Other Made-up Textile articles; Sets; Worn clothing"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00750",
+   "path": [
+    "Imports",
+    "Footwear; Headgear; Umbrellas; Walking Sticks etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00760",
+   "path": [
+    "Imports",
+    "Footwear; Gaiters & the Like; Parts of such Article"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00770",
+   "path": [
+    "Imports",
+    "Headgear and other Parts thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00780",
+   "path": [
+    "Imports",
+    "Umbrellas; Walking-Sticks; hips Riding-Crops;Parts"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00790",
+   "path": [
+    "Imports",
+    "Prep Feathers; Human Hair/Artcls; Artific Flowers"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00800",
+   "path": [
+    "Imports",
+    "articles of Stone; Plaster; Cement; Asbestos; Mica or similar Materials"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00810",
+   "path": [
+    "Imports",
+    "articles of Stone; Plaster; Cement; Mica etc"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00820",
+   "path": [
+    "Imports",
+    "Ceramic Products"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00830",
+   "path": [
+    "Imports",
+    "Glass and Glassware"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00840",
+   "path": [
+    "Imports",
+    "Natural or Cultured Pearls; Precious or Semi Precious Stones; Metals"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00850",
+   "path": [
+    "Imports",
+    "Pearls; Stones; Precious Metals; Imitation Jewelry"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00860",
+   "path": [
+    "Imports",
+    "Base Metals and articles or Base Metal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00870",
+   "path": [
+    "Imports",
+    "Iron and Steel"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00880",
+   "path": [
+    "Imports",
+    "articles of Iron or Steel"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00890",
+   "path": [
+    "Imports",
+    "Copper and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00900",
+   "path": [
+    "Imports",
+    "Nickel and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00910",
+   "path": [
+    "Imports",
+    "Aluminum and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00920",
+   "path": [
+    "Imports",
+    "Lead and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00930",
+   "path": [
+    "Imports",
+    "Zinc and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00940",
+   "path": [
+    "Imports",
+    "Tin and articles thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00950",
+   "path": [
+    "Imports",
+    "Other Base Metals; Cermets; articles thereof NES"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00960",
+   "path": [
+    "Imports",
+    "Tools; Implements; Cutlery;Spoons & Forks of Base"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00970",
+   "path": [
+    "Imports",
+    "Miscellaneous articles of Base Metal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00980",
+   "path": [
+    "Imports",
+    "Machinery and Mechanical Appliances"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA00990",
+   "path": [
+    "Imports",
+    "Nuclear Reactors; Boilers; Machinery and Appliance"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01000",
+   "path": [
+    "Imports",
+    "Electrical Machinery & Equipment and Parts thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01010",
+   "path": [
+    "Imports",
+    "Vehicles; Aircraft; Vessels and Associated Transport Equipment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01020",
+   "path": [
+    "Imports",
+    "Railway or Tramway Locomotives rolling Stock/Parts"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01030",
+   "path": [
+    "Imports",
+    "Vehicles other than Railway /Tramway Rolling Stock"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01040",
+   "path": [
+    "Imports",
+    "Aircraft; Spacecraft and Parts Thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01050",
+   "path": [
+    "Imports",
+    "Ships; Boats and Floating Structures"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01060",
+   "path": [
+    "Imports",
+    "Optical; Photographic; Cinematographer; Measuring; Checking; Precision Apparatus"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01070",
+   "path": [
+    "Imports",
+    "Optical; Photographic; Measuring and Medical Inst"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01080",
+   "path": [
+    "Imports",
+    "Clocks and Watches and Parts Thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01090",
+   "path": [
+    "Imports",
+    "Musical Instruments; Parts and Acces.sories thereof"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01100",
+   "path": [
+    "Imports",
+    "Arms and Ammunition; Parts and Acces.sories thereof [IMPA01100]"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01110",
+   "path": [
+    "Imports",
+    "Arms and Ammunition; Parts and Acces.sories thereof [IMPA01110]"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01120",
+   "path": [
+    "Imports",
+    "Miscellaneous Manufactured articles [IMPA01120]"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01130",
+   "path": [
+    "Imports",
+    "Furniture; Bedding; Mattresses; Lamps and lighting"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01140",
+   "path": [
+    "Imports",
+    "Toys; Games and Sports Requisites; Parts & Acces"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01150",
+   "path": [
+    "Imports",
+    "Miscellaneous Manufactured articles [IMPA01150]"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01160",
+   "path": [
+    "Imports",
+    "Works of Arts; Collectors; Pieces; Antiques and Special Transactions NES"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01170",
+   "path": [
+    "Imports",
+    "Works of Arts; Collectors' pieces and Antiques"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01180",
+   "path": [
+    "Imports",
+    "Special Classification Provisions"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01190",
+   "path": [
+    "Imports",
+    "Imports Payments by Banks"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01200",
+   "path": [
+    "Imports",
+    "Freight & Insurance"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01210",
+   "path": [
+    "Imports",
+    "Imports Payments Banks (fob)"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01220",
+   "path": [
+    "Imports",
+    "Other Imports"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOM_M.IMPA01230",
+   "path": [
+    "Imports",
+    "Total Imports BOP"
+   ],
+   "unit": "usd",
+   "flow": true
+  }
+ ]
+}

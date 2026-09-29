@@ -1,0 +1,1415 @@
+{
+ "_comment": "Government/Non-Government/Private Sector credit, with the Private Sector business-loan detail broken out by ISIC industry exactly as SBP publishes it (row order = ISIC order in the source). Each published SBP aggregate (Government, Non-Government, Private Sector, each ISIC sector, etc.) is placed AT its own group node rather than as a sibling leaf next to its components \u2014 a real parent/child relationship, same pattern as the deposits dashboard's Residents> {Govt,...}. The engine's stack/share guard already disables double-counting when a parent is selected together with its own descendant, so no summable.forceOff overrides are needed here. UNIT PLACEHOLDER: catalog Unit column just says 'PKR' with no scale \u2014 VERIFY against refresh.py's first real run before trusting axis labels.",
+ "dataset": "SBP & Scheduled Banks Credit by Borrower",
+ "series": [
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00011000",
+   "path": [
+    "Government"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00012000",
+   "path": [
+    "Government",
+    "SBP Credit"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00013000",
+   "path": [
+    "Government",
+    "Scheduled Banks Credit"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00014000",
+   "path": [
+    "Non-Government"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00015000",
+   "path": [
+    "Non-Government",
+    "SBP Credit"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00016000",
+   "path": [
+    "Non-Government",
+    "Scheduled Banks Credit"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00017000",
+   "path": [
+    "Non-Government",
+    "Public Sector Enterprises"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00018000",
+   "path": [
+    "Non-Government",
+    "Public Sector Enterprises",
+    "Investment"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00019000",
+   "path": [
+    "Non-Government",
+    "Public Sector Enterprises",
+    "Loans"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00020000",
+   "path": [
+    "Non-Government",
+    "Non-Bank Financial Institutions"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00021000",
+   "path": [
+    "Non-Government",
+    "Non-Bank Financial Institutions",
+    "Investment"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00022000",
+   "path": [
+    "Non-Government",
+    "Non-Bank Financial Institutions",
+    "Loans"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00023000",
+   "path": [
+    "Private Sector"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00024000",
+   "path": [
+    "Private Sector",
+    "Investment"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00025000",
+   "path": [
+    "Private Sector",
+    "Loans (total)"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00026000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00027000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Agriculture, Forestry and Fishing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00028000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Agriculture, Forestry and Fishing",
+    "Crop and Animal production; hunting and related service activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00029000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Agriculture, Forestry and Fishing",
+    "Forestry and Logging"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00030000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Agriculture, Forestry and Fishing",
+    "Fishing and aquaculture"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00031000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Mining and Quarrying"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00032000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Mining and Quarrying",
+    "Mining of coal and lignite"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00033000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Mining and Quarrying",
+    "Extraction of crude petroleum and natural gas"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00034000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Mining and Quarrying",
+    "Mining of metal ores"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00035000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Mining and Quarrying",
+    "mining and quarrying"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00036000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Mining and Quarrying",
+    "Mining support service activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00037000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00038000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of food products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00039000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of sugar"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00040000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of beverages"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00041000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of tobacco products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00042000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of textiles"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00043000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of wearing apparel"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00044000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of leather and related products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00045000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of wood and of products of wood and cork; except furniture; manufacture of articles of straw and plaiting materials"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00046000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of paper and paper products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00047000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Printing and reproduction of recorded media"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00048000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of coke and refined petroleum products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00049000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of refined petroleum products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00050000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of chemicals and chemical products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00051000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of fertilizers and nitrogen compounds"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00052000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of basic pharmaceutical products and pharmaceutical preparations"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00053000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of rubber and plastics products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00054000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of other non-metallic mineral products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00055000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of basic metals"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00056000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of fabricated metal products; except machinery and equipment"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00057000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of computer; electronic and optical products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00058000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of electrical equipment"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00059000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of machinery and equipment"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00060000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of motor vehicles; trailers and semi-trailers"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00061000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of other transport equipment"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00062000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Manufacture of furniture"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00063000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Other manufacturing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00064000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Manufacturing",
+    "Repair and installation of machinery and equipment"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00065000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Electricity, Gas, Steam and Air Conditioning Supply"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00066000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Electricity, Gas, Steam and Air Conditioning Supply",
+    "Electric power generation; transmission and distribution"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00067000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Water Supply, Sewerage, Waste Management"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00068000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Water Supply, Sewerage, Waste Management",
+    "Water collection; treatment and supply"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00069000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Water Supply, Sewerage, Waste Management",
+    "Sewerage"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00070000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Water Supply, Sewerage, Waste Management",
+    "Waste collection; treatment and disposal activities; materials recovery"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00071000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Water Supply, Sewerage, Waste Management",
+    "Ship Breaking and materials recovery"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00072000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Water Supply, Sewerage, Waste Management",
+    "Remediation activities and other waste management services"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00073000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Construction"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00074000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Construction",
+    "Construction of buildings"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00075000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Construction",
+    "Civil engineering"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00076000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Construction",
+    "Specialized construction activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00077000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Wholesale and Retail Trade"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00078000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Wholesale and Retail Trade",
+    "Wholesale and retail trade and repair of motor vehicles and motorcycles"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00079000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Wholesale and Retail Trade",
+    "Wholesale trade; except of motor vehicles and motorcycles"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00080000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Wholesale and Retail Trade",
+    "Retail trade; except of motor vehicles and motorcycles"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00081000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Transportation and Storage"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00082000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Transportation and Storage",
+    "Land transport and transport via pipelines"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00083000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Transportation and Storage",
+    "Water transport"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00084000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Transportation and Storage",
+    "Air transport"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00085000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Transportation and Storage",
+    "Warehousing and support activities for transportation"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00086000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Transportation and Storage",
+    "Courier activities other than national post activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00087000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Accommodation and Food Service Activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00088000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Accommodation and Food Service Activities",
+    "Accommodation sector"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00089000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Accommodation and Food Service Activities",
+    "Food and beverage service activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00090000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Information and Communication"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00091000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Information and Communication",
+    "Publishing activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00092000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Information and Communication",
+    "Motion picture; video and television programme production; sound recording and music publishing activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00093000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Information and Communication",
+    "Programming and broadcasting activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00094000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Information and Communication",
+    "Telecommunications"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00095000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Information and Communication",
+    "Computer programming; consultancy and related activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00096000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Information and Communication",
+    "Information service activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00097000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Real Estate Activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00098000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Professional, Scientific and Technical Activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00099000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Professional, Scientific and Technical Activities",
+    "Legal and accounting activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00100000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Professional, Scientific and Technical Activities",
+    "Activities of head offices; management consultancy activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00101000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Professional, Scientific and Technical Activities",
+    "Architectural and engineering activities; technical testing and analysis"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00102000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Professional, Scientific and Technical Activities",
+    "Scientific research and development"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00103000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Professional, Scientific and Technical Activities",
+    "Advertising and market research"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00104000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Professional, Scientific and Technical Activities",
+    "Other professional; scientific and technical activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00105000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Professional, Scientific and Technical Activities",
+    "Veterinary activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00106000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Administrative and Support Service Activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00107000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Administrative and Support Service Activities",
+    "Rental and leasing activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00108000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Administrative and Support Service Activities",
+    "Employment activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00109000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Administrative and Support Service Activities",
+    "Travel agency; tour operator; reservation service and related activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00110000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Administrative and Support Service Activities",
+    "Security and investigation activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00111000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Administrative and Support Service Activities",
+    "Services to buildings and landscape activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00112000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Administrative and Support Service Activities",
+    "Office administrative; office support and other business support activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00113000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Education"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00114000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Human Health and Social Work Activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00115000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Human Health and Social Work Activities",
+    "Human health activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00116000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Human Health and Social Work Activities",
+    "Residential care activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00117000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Human Health and Social Work Activities",
+    "Social work activities with and without accommodation"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00118000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Arts, Entertainment and Recreation"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00119000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Arts, Entertainment and Recreation",
+    "Creative; arts and entertainment activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00120000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Arts, Entertainment and Recreation",
+    "Libraries; archives; museums and other cultural activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00121000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Arts, Entertainment and Recreation",
+    "Sports activities and amusement and recreation activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00122000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Other Service Activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00123000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Other Service Activities",
+    "Activities of membership organizations"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00124000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Other Service Activities",
+    "Repair of computers and personal and household goods"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00125000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Other Service Activities",
+    "Other personal service activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00126000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Other Service Activities",
+    "Activities of households as employers of domestic personnel"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00127000",
+   "path": [
+    "Private Sector",
+    "Loans (total)",
+    "Business Loans",
+    "Other Service Activities",
+    "Undifferentiated goods- and services-producing activities of private households for own use"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00128000",
+   "path": [
+    "Private Sector",
+    "Other Borrowers",
+    "TRUST FUNDS AND NON PROFIT ORGANIZATIONS"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00129000",
+   "path": [
+    "Private Sector",
+    "Other Borrowers",
+    "Individuals"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00130000",
+   "path": [
+    "Private Sector",
+    "Other Borrowers",
+    "Bank  Employees"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00131000",
+   "path": [
+    "Private Sector",
+    "Other Borrowers",
+    "Consumer Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00132000",
+   "path": [
+    "Private Sector",
+    "Other Borrowers",
+    "Other Personal Loans"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00133000",
+   "path": [
+    "Private Sector",
+    "Other Borrowers",
+    "OTHER sectors"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_CRLONBOR_M.CLB00134000",
+   "path": [
+    "Total Credit"
+   ],
+   "unit": "pkr",
+   "flow": false
+  }
+ ]
+}

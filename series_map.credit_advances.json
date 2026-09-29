@@ -1,0 +1,1112 @@
+{
+ "_comment": "Top-level borrower categories (Government/NFPSEs/NBFIs/Private Sector/Trust Funds/Individuals/Other) plus Grand Total, all from SBP's own published rows. The ~110 Private Sector (Business) collateral-type series (against Food Items, Raw Materials, Securities, Fixed Assets, etc.) are LEFT FLAT under one 'detail' branch rather than re-nested by collateral sub-type \u2014 several of those rows are themselves SBP's own published subtotals (e.g. 'Against Food Items' sums the Wheat/Rice/Sugar/etc rows beneath it) and getting that nesting wrong would let the engine's auto-stack silently double-count. Flagging this as a gap rather than guessing \u2014 see summable.forceOff note in the config. UNIT PLACEHOLDER: catalog Unit column just says 'PKR' with no scale \u2014 VERIFY against refresh.py's first real run before trusting axis labels.",
+ "dataset": "Outstanding Advances by Borrower",
+ "series": [
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0000100",
+   "path": [
+    "Foreign Constituents"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0000200",
+   "path": [
+    "Domestic Constituents (total)"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0000300",
+   "path": [
+    "Government"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0000400",
+   "path": [
+    "Non-Financial Public Sector Enterprises"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0000500",
+   "path": [
+    "Non-Bank Financial Institutions"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0000600",
+   "path": [
+    "Private Sector (Business) \u2014 total"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0000700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Gold Bullion; Gold; And Silver Ornaments; Precious Metals"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0000800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Securities; Shares And Other Financial Instruments"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0000900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Securities Quoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0001000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Stock Brokers And Dealers Against Securities Quoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0001100",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Stock Brokers And Dealers Against Government and Other Trustee Securities Quoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0001200",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Stock Brokers And Dealers Against Shares And Debentures Quoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0001300",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Stock Brokers And Dealers Against PTCs Quoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0001400",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Stock Brokers And Dealers Against Securities Other than Govt Trustee Securities; Shares & Debentures and PTCs Quoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0001500",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Borrowers Other than Stock Brokers and Dealers Against Securities Quoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0001600",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Borrowers Other than Stock Brokers and Dealers Against Government and Other Trustee Securities Quoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0001700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Borrowers Other than Stock Brokers and Dealers Against Shares And Debentures Quoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0001800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Borrowers Other than Stock Brokers and Dealers Against PTCs Quoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0001900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Borrowers Other than Stock Brokers and Dealers Against Securities Other than Govt Trustee Securities; Shares & Debentures and PTCs Quoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0002000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Securities Unquoted On Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0002100",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Stock Brokers And Dealers Against Securities Unquoted on Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0002200",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Stock Brokers And Dealers Against Government and Other Trustee Securities Unquoted on Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0002300",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Stock Brokers And Dealers Against Shares And Debentures Unquoted on Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0002400",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Stock Brokers And Dealers Against PTCs Unquoted on Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0002500",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Stock Brokers And Dealers Against Securities Other than Govt Trustee Securities; Shares & Debentures and PTCs Unquoted on Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0002600",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Borrowers Other than Stock Brokers and Dealers Against Securities Unquoted on Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0002700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Borrowers Other than Stock Brokers and Dealers Against Government and Other Trustee Securities Unquoted on Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0002800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Borrowers Other than Stock Brokers and Dealers Against Shares And Debentures Unquoted on Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0002900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Borrowers Other than Stock Brokers and Dealers Against PTCs Unquoted on Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0003000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "To Borrowers Other than Stock Brokers and Dealers Against Securities Other than Govt Trustee Securities; Shares & Debentures and PTCs Unquoted on Stock Exchange"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0003100",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Merchandise"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0003200",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Food Items"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0003300",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Wheat"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0003400",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Rice And Paddy"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0003500",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Grains And Pulses other than Wheat and Rice & Paddy"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0003600",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Grains And Pulses other than Wheat and Rice & Paddy"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0003700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Grains And Pulses other than Wheat and Rice & Paddy"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0003800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Edible Oils"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0003900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Edible Oils"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0004000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Edible Oils"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0004100",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Sugar"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0004200",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Sugar"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0004300",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Sugar"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0004400",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Kariana And Spices"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0004500",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Fish And Fish Preparations"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0004600",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Food Items"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0004700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Other Food Items"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0004800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Other Food Items"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0004900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Raw Materials"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0005000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Cotton Raw"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0005100",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Raw Cotton"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0005200",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Raw Cotton"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0005300",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Synthetic Fibers"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0005400",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Synthetic Fibers"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0005500",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Synthetic Fibers"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0005600",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Fertilizers"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0005700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Fertilizers"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0005800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Fertilizers"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0005900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Petroleum Crude"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0006000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Crude Petroleum"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0006100",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Crude Petroleum"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0006200",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Iron And Steel"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0006300",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Iron And Steel"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0006400",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Iron And Steel"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0006500",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Wool And Goat Hair"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0006600",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Hides And Skins"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0006700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Oil Seeds"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0006800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Pesticides And Insecticides"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0006900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Pesticides And Insecticides"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0007000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Pesticides And Insecticides"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0007100",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Raw Materials"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0007200",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Indigenous Raw Materials"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0007300",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Imported Raw Materials"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0007400",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Finished / Manufactured Goods"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0007500",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Cotton Textiles"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0007600",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Cotton Textiles"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0007700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Cotton Textiles"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0007800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Cotton Yarn"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0007900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Cotton Yarn"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0008000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Cotton Yarn"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0008100",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Textiles"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0008200",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Indigenous Textiles"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0008300",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Imported Textiles"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0008400",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Machinery"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0008500",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Locally Manufactured Machinery"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0008600",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Machinery"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0008700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Handloom Products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0008800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Carpets And Rugs"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0008900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Readymade Garments"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0009000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Cement And Cement Products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0009100",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Indigenous Cement And Cement Products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0009200",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Imported Cement And Cement Products"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0009300",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Sports Goods"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0009400",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Surgical Instruments"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0009500",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Chemicals And Dyes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0009600",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Finished Goods"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0009700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Indigenous Finished Goods"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0009800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Imported Finished Goods"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0009900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Fixed Assets"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0010000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Transport Equipment"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0010100",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Furniture & Fixtures"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0010200",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Office Equipment"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0010300",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Machinery & Equipment"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0010400",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Real Estate"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0010500",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Land"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0010600",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Buildings"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0010700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Residential Buildings"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0010800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Non-Residential Buildings"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0010900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Commercial Non-Residential Buildings"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0011000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Industrial Non-Residential Buildings"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0011100",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other than commercial and industrial Non-Residential Buildings"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0011200",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Fixed Deposits And Insurance Policies"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0011300",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Bank Deposits"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0011400",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Insurance Policies"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0011500",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Against Other Securities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0011600",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Other Secured Advances"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0011700",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Secured By Guarantee(s)"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0011800",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Secured By Institutional Guarantee(s)"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0011900",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Secured By Individual Guarantee(s)"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0012000",
+   "path": [
+    "Private Sector (Business) \u2014 detail",
+    "Unsecured Advances"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0012100",
+   "path": [
+    "Trust Funds & Non-Profit Organizations"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0012200",
+   "path": [
+    "Individuals"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0012300",
+   "path": [
+    "Other Borrowers"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_ADVBYBOR_M.ABS0012400",
+   "path": [
+    "Grand Total"
+   ],
+   "unit": "pkr",
+   "flow": false
+  }
+ ]
+}

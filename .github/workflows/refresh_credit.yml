@@ -1,0 +1,62 @@
+name: Refresh Credit by Borrower
+
+on:
+  schedule:
+    - cron: "0 6 * * 4"   # Thursdays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install --quiet pandas || true
+
+      - name: Ensure public/ exists
+        run: mkdir -p public
+
+      - name: Refresh + build Credit
+        env:
+          EASYDATA_API_KEY: ${{ secrets.EASYDATA_API_KEY }}
+        run: |
+          python3 refresh.py --map series_map.credit.json --start 2000-01 --out data.credit.json
+          python3 build.py --config config.credit.js --data data.credit.json --logo logo.png --out public/credit.html
+
+      - name: Commit rebuilt files
+        run: |
+          git config user.name  "dashboard-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add public/*.html data.*.json
+          git commit -m "Auto-refresh credit [skip ci]" || echo "nothing to commit"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

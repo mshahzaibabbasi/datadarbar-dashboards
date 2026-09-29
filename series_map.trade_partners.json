@@ -1,0 +1,3966 @@
+{
+ "_comment": "Export receipts + import payments by trading partner country. Flat one level under Exports/Imports (220 countries each side). flow=true. UNIT PLACEHOLDER: same caveat as trade_commodities \u2014 VERIFY the USD scale against refresh.py's first real run before trusting axis labels.",
+ "dataset": "Trade by Country",
+ "series": [
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00010",
+   "path": [
+    "Exports",
+    "Afghanistan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00020",
+   "path": [
+    "Exports",
+    "Albania"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00030",
+   "path": [
+    "Exports",
+    "Algeria"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00040",
+   "path": [
+    "Exports",
+    "American Samoa"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00050",
+   "path": [
+    "Exports",
+    "Andorra"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00060",
+   "path": [
+    "Exports",
+    "Angola"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00070",
+   "path": [
+    "Exports",
+    "Antigua & Barbuda"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00080",
+   "path": [
+    "Exports",
+    "Argentina"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00090",
+   "path": [
+    "Exports",
+    "Armenia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00100",
+   "path": [
+    "Exports",
+    "Aruba"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00110",
+   "path": [
+    "Exports",
+    "Australia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00120",
+   "path": [
+    "Exports",
+    "Austria"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00130",
+   "path": [
+    "Exports",
+    "Azerbaijan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00140",
+   "path": [
+    "Exports",
+    "Bahamas"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00150",
+   "path": [
+    "Exports",
+    "Bahrain"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00160",
+   "path": [
+    "Exports",
+    "Bangladesh"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00170",
+   "path": [
+    "Exports",
+    "Barbados"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00180",
+   "path": [
+    "Exports",
+    "Belarus"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00190",
+   "path": [
+    "Exports",
+    "Belgium"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00200",
+   "path": [
+    "Exports",
+    "Belize"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00210",
+   "path": [
+    "Exports",
+    "Benin ( Dahomey )"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00220",
+   "path": [
+    "Exports",
+    "Bermuda"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00230",
+   "path": [
+    "Exports",
+    "Bhutan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00240",
+   "path": [
+    "Exports",
+    "Bolivia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00250",
+   "path": [
+    "Exports",
+    "Bosnia Herzegovina"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00260",
+   "path": [
+    "Exports",
+    "Botswana"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00270",
+   "path": [
+    "Exports",
+    "Brazil"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00280",
+   "path": [
+    "Exports",
+    "Brunei"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00290",
+   "path": [
+    "Exports",
+    "Bulgaria"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00300",
+   "path": [
+    "Exports",
+    "Burkina Faso ( Upper Volta)"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00310",
+   "path": [
+    "Exports",
+    "Burundi"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00320",
+   "path": [
+    "Exports",
+    "Cambodia Kampuchea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00330",
+   "path": [
+    "Exports",
+    "Cameroon"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00340",
+   "path": [
+    "Exports",
+    "Canada"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00350",
+   "path": [
+    "Exports",
+    "Cape Verde"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00360",
+   "path": [
+    "Exports",
+    "Cayman Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00370",
+   "path": [
+    "Exports",
+    "Central African Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00380",
+   "path": [
+    "Exports",
+    "Chad"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00390",
+   "path": [
+    "Exports",
+    "Chile"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00400",
+   "path": [
+    "Exports",
+    "China"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00410",
+   "path": [
+    "Exports",
+    "Colombia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00420",
+   "path": [
+    "Exports",
+    "Comoros"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00430",
+   "path": [
+    "Exports",
+    "Congo"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00440",
+   "path": [
+    "Exports",
+    "Costa Rica"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00450",
+   "path": [
+    "Exports",
+    "Croatia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00460",
+   "path": [
+    "Exports",
+    "Cuba"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00470",
+   "path": [
+    "Exports",
+    "Cyprus"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00480",
+   "path": [
+    "Exports",
+    "Czech Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00490",
+   "path": [
+    "Exports",
+    "Denmark"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00500",
+   "path": [
+    "Exports",
+    "Djibouti"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00510",
+   "path": [
+    "Exports",
+    "Dominica"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00520",
+   "path": [
+    "Exports",
+    "Dominican Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00530",
+   "path": [
+    "Exports",
+    "Ecuador"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00540",
+   "path": [
+    "Exports",
+    "Egypt"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00550",
+   "path": [
+    "Exports",
+    "El Salvador"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00560",
+   "path": [
+    "Exports",
+    "Equatoria Guinea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00570",
+   "path": [
+    "Exports",
+    "Eritrea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00580",
+   "path": [
+    "Exports",
+    "Estonia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00590",
+   "path": [
+    "Exports",
+    "Ethiopia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00600",
+   "path": [
+    "Exports",
+    "Faeroe Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00610",
+   "path": [
+    "Exports",
+    "Falkland Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00620",
+   "path": [
+    "Exports",
+    "Fiji"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00630",
+   "path": [
+    "Exports",
+    "Finland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00640",
+   "path": [
+    "Exports",
+    "France"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00650",
+   "path": [
+    "Exports",
+    "French Guinea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00660",
+   "path": [
+    "Exports",
+    "Gabon"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00670",
+   "path": [
+    "Exports",
+    "Gambia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00680",
+   "path": [
+    "Exports",
+    "Georgia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00690",
+   "path": [
+    "Exports",
+    "Germany"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00700",
+   "path": [
+    "Exports",
+    "Ghana"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00710",
+   "path": [
+    "Exports",
+    "Gibraltar"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00720",
+   "path": [
+    "Exports",
+    "Greece"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00730",
+   "path": [
+    "Exports",
+    "Greenland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00740",
+   "path": [
+    "Exports",
+    "Grenada"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00750",
+   "path": [
+    "Exports",
+    "Guadeloupe"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00760",
+   "path": [
+    "Exports",
+    "Guam"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00770",
+   "path": [
+    "Exports",
+    "Guatemala"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00780",
+   "path": [
+    "Exports",
+    "Guinea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00790",
+   "path": [
+    "Exports",
+    "Guinea-Bissau"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00800",
+   "path": [
+    "Exports",
+    "Guyana"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00810",
+   "path": [
+    "Exports",
+    "Haiti"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00820",
+   "path": [
+    "Exports",
+    "Honduras"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00830",
+   "path": [
+    "Exports",
+    "Hong Kong"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00840",
+   "path": [
+    "Exports",
+    "Hungary"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00850",
+   "path": [
+    "Exports",
+    "Iceland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00860",
+   "path": [
+    "Exports",
+    "India"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00870",
+   "path": [
+    "Exports",
+    "Indonesia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00880",
+   "path": [
+    "Exports",
+    "Iran"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00890",
+   "path": [
+    "Exports",
+    "Iraq"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00900",
+   "path": [
+    "Exports",
+    "Ireland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00910",
+   "path": [
+    "Exports",
+    "Italy"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00920",
+   "path": [
+    "Exports",
+    "Ivory Coast"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00930",
+   "path": [
+    "Exports",
+    "Jamaica"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00940",
+   "path": [
+    "Exports",
+    "Japan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00950",
+   "path": [
+    "Exports",
+    "Jordan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00960",
+   "path": [
+    "Exports",
+    "Kazakhstan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00970",
+   "path": [
+    "Exports",
+    "Kenya"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00980",
+   "path": [
+    "Exports",
+    "Kiribati"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC00990",
+   "path": [
+    "Exports",
+    "Kuwait"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01000",
+   "path": [
+    "Exports",
+    "Kyrgyzstan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01010",
+   "path": [
+    "Exports",
+    "Laos"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01020",
+   "path": [
+    "Exports",
+    "Latvia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01030",
+   "path": [
+    "Exports",
+    "Lebanon"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01040",
+   "path": [
+    "Exports",
+    "Leeward Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01050",
+   "path": [
+    "Exports",
+    "Lesotho"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01060",
+   "path": [
+    "Exports",
+    "Liberia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01070",
+   "path": [
+    "Exports",
+    "Libya"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01080",
+   "path": [
+    "Exports",
+    "Lithuania"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01090",
+   "path": [
+    "Exports",
+    "Luxembourg"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01100",
+   "path": [
+    "Exports",
+    "Macao"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01110",
+   "path": [
+    "Exports",
+    "Macedonia (Formerly Yugoslavia)"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01120",
+   "path": [
+    "Exports",
+    "Madagascar"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01130",
+   "path": [
+    "Exports",
+    "Malawi"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01140",
+   "path": [
+    "Exports",
+    "Malaysia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01150",
+   "path": [
+    "Exports",
+    "Maldives"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01160",
+   "path": [
+    "Exports",
+    "Mali"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01170",
+   "path": [
+    "Exports",
+    "Malta"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01180",
+   "path": [
+    "Exports",
+    "Martinique"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01190",
+   "path": [
+    "Exports",
+    "Mauritania"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01200",
+   "path": [
+    "Exports",
+    "Mauritius"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01210",
+   "path": [
+    "Exports",
+    "Mexico"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01220",
+   "path": [
+    "Exports",
+    "Moldova"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01230",
+   "path": [
+    "Exports",
+    "Mongolia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01240",
+   "path": [
+    "Exports",
+    "Montserrat"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01250",
+   "path": [
+    "Exports",
+    "Morocco"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01260",
+   "path": [
+    "Exports",
+    "Mozambique"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01270",
+   "path": [
+    "Exports",
+    "Myanmar"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01280",
+   "path": [
+    "Exports",
+    "Namibia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01290",
+   "path": [
+    "Exports",
+    "Nauru"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01300",
+   "path": [
+    "Exports",
+    "Nepal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01310",
+   "path": [
+    "Exports",
+    "Netherlands (Holland)"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01320",
+   "path": [
+    "Exports",
+    "Netherlands Antilles"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01330",
+   "path": [
+    "Exports",
+    "New Caledonia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01340",
+   "path": [
+    "Exports",
+    "New Zealand"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01350",
+   "path": [
+    "Exports",
+    "Nicaragua"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01360",
+   "path": [
+    "Exports",
+    "Niger"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01370",
+   "path": [
+    "Exports",
+    "Nigeria"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01380",
+   "path": [
+    "Exports",
+    "North Korea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01390",
+   "path": [
+    "Exports",
+    "Norway"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01400",
+   "path": [
+    "Exports",
+    "Oman"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01410",
+   "path": [
+    "Exports",
+    "Panama Inc. Panama Canal Zone"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01420",
+   "path": [
+    "Exports",
+    "Papua New Guinea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01430",
+   "path": [
+    "Exports",
+    "Paraguay"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01440",
+   "path": [
+    "Exports",
+    "Peru"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01450",
+   "path": [
+    "Exports",
+    "Philippines"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01460",
+   "path": [
+    "Exports",
+    "Poland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01470",
+   "path": [
+    "Exports",
+    "Polynesia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01480",
+   "path": [
+    "Exports",
+    "Portugal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01490",
+   "path": [
+    "Exports",
+    "Qatar"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01500",
+   "path": [
+    "Exports",
+    "Reunion Island"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01510",
+   "path": [
+    "Exports",
+    "Romania"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01520",
+   "path": [
+    "Exports",
+    "Russian Federation"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01530",
+   "path": [
+    "Exports",
+    "Rwanda"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01540",
+   "path": [
+    "Exports",
+    "Sao fromme & Principe"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01550",
+   "path": [
+    "Exports",
+    "Saudi Arabia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01560",
+   "path": [
+    "Exports",
+    "Senegal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01570",
+   "path": [
+    "Exports",
+    "Serbia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01580",
+   "path": [
+    "Exports",
+    "Seychelles"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01590",
+   "path": [
+    "Exports",
+    "Sierra Leone"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01600",
+   "path": [
+    "Exports",
+    "Singapore"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01610",
+   "path": [
+    "Exports",
+    "Slovak Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01620",
+   "path": [
+    "Exports",
+    "Slovenia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01630",
+   "path": [
+    "Exports",
+    "Solomon Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01640",
+   "path": [
+    "Exports",
+    "Somalia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01650",
+   "path": [
+    "Exports",
+    "South Africa"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01660",
+   "path": [
+    "Exports",
+    "South Korea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01670",
+   "path": [
+    "Exports",
+    "Spain"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01680",
+   "path": [
+    "Exports",
+    "Sri Lanka"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01690",
+   "path": [
+    "Exports",
+    "St. Helena"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01700",
+   "path": [
+    "Exports",
+    "St. Kitts-Nevis"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01710",
+   "path": [
+    "Exports",
+    "St. Lucia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01720",
+   "path": [
+    "Exports",
+    "St. Pierre & Miquelon"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01730",
+   "path": [
+    "Exports",
+    "St. Vincent"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01740",
+   "path": [
+    "Exports",
+    "Sudan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01750",
+   "path": [
+    "Exports",
+    "Suriname"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01760",
+   "path": [
+    "Exports",
+    "Swaziland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01770",
+   "path": [
+    "Exports",
+    "Sweden"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01780",
+   "path": [
+    "Exports",
+    "Switzerland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01790",
+   "path": [
+    "Exports",
+    "Syrian Arab Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01800",
+   "path": [
+    "Exports",
+    "Tajikistan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01810",
+   "path": [
+    "Exports",
+    "Tanzania"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01820",
+   "path": [
+    "Exports",
+    "Thailand"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01830",
+   "path": [
+    "Exports",
+    "Timor-Leste"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01840",
+   "path": [
+    "Exports",
+    "Togo"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01850",
+   "path": [
+    "Exports",
+    "Tonga"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01860",
+   "path": [
+    "Exports",
+    "Trinidad and Tobago"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01870",
+   "path": [
+    "Exports",
+    "Tunisia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01880",
+   "path": [
+    "Exports",
+    "Turkey"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01890",
+   "path": [
+    "Exports",
+    "Turkmenistan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01900",
+   "path": [
+    "Exports",
+    "Tuvalu"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01910",
+   "path": [
+    "Exports",
+    "U. A. E. Abu Dhabi"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01920",
+   "path": [
+    "Exports",
+    "U. A. E. Ajman"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01930",
+   "path": [
+    "Exports",
+    "U. A. E. Dubai"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01940",
+   "path": [
+    "Exports",
+    "U. A. E. Fujairah"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01950",
+   "path": [
+    "Exports",
+    "U. A. E. Ras Al Khaimah"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01960",
+   "path": [
+    "Exports",
+    "U. A. E. Sharjah"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01970",
+   "path": [
+    "Exports",
+    "U. A. E. Ummal Quwain"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01980",
+   "path": [
+    "Exports",
+    "U. K."
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC01990",
+   "path": [
+    "Exports",
+    "U. S. A."
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02000",
+   "path": [
+    "Exports",
+    "Uganda"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02010",
+   "path": [
+    "Exports",
+    "Ukraine"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02020",
+   "path": [
+    "Exports",
+    "Upper Volta"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02030",
+   "path": [
+    "Exports",
+    "Uruguay"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02040",
+   "path": [
+    "Exports",
+    "Uzbekistan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02050",
+   "path": [
+    "Exports",
+    "Vanuatu"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02060",
+   "path": [
+    "Exports",
+    "Venezuela"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02070",
+   "path": [
+    "Exports",
+    "Viet Nam"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02080",
+   "path": [
+    "Exports",
+    "Virgin Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02090",
+   "path": [
+    "Exports",
+    "Western Samoa"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02100",
+   "path": [
+    "Exports",
+    "Windward Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02110",
+   "path": [
+    "Exports",
+    "Yemen Arab Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02120",
+   "path": [
+    "Exports",
+    "Zaire"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02130",
+   "path": [
+    "Exports",
+    "Zambia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02140",
+   "path": [
+    "Exports",
+    "Zimbabwe"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02150",
+   "path": [
+    "Exports",
+    "Other Countries"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02160",
+   "path": [
+    "Exports",
+    "Export Receipts through Banks"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02170",
+   "path": [
+    "Exports",
+    "Freight on Export has been calculated through survey of foreign air & shipping cos and domestic air & shipping cos"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02180",
+   "path": [
+    "Exports",
+    "Export Receipts Banks (fob)"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02190",
+   "path": [
+    "Exports",
+    "Other exports includes land borne export; export of samples; outstanding export bills and refund & rebate; goods procured on ports by carriers"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_XRECCOU_M.EXPC02200",
+   "path": [
+    "Exports",
+    "Total Export as per BOP"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00010",
+   "path": [
+    "Imports",
+    "Afghanistan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00020",
+   "path": [
+    "Imports",
+    "Albania"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00030",
+   "path": [
+    "Imports",
+    "Algeria"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00040",
+   "path": [
+    "Imports",
+    "American Samoa"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00050",
+   "path": [
+    "Imports",
+    "Andorra"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00060",
+   "path": [
+    "Imports",
+    "Angola"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00070",
+   "path": [
+    "Imports",
+    "Antigua & Barbuda"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00080",
+   "path": [
+    "Imports",
+    "Argentina"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00090",
+   "path": [
+    "Imports",
+    "Armenia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00100",
+   "path": [
+    "Imports",
+    "Aruba"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00110",
+   "path": [
+    "Imports",
+    "Australia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00120",
+   "path": [
+    "Imports",
+    "Austria"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00130",
+   "path": [
+    "Imports",
+    "Azerbaijan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00140",
+   "path": [
+    "Imports",
+    "Bahamas"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00150",
+   "path": [
+    "Imports",
+    "Bahrain"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00160",
+   "path": [
+    "Imports",
+    "Bangladesh"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00170",
+   "path": [
+    "Imports",
+    "Barbados"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00180",
+   "path": [
+    "Imports",
+    "Belarus"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00190",
+   "path": [
+    "Imports",
+    "Belgium"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00200",
+   "path": [
+    "Imports",
+    "Belize"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00210",
+   "path": [
+    "Imports",
+    "Benin ( Dahomey )"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00220",
+   "path": [
+    "Imports",
+    "Bermuda"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00230",
+   "path": [
+    "Imports",
+    "Bhutan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00240",
+   "path": [
+    "Imports",
+    "Bolivia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00250",
+   "path": [
+    "Imports",
+    "Bosnia Herzegovina"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00260",
+   "path": [
+    "Imports",
+    "Botswana"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00270",
+   "path": [
+    "Imports",
+    "Brazil"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00280",
+   "path": [
+    "Imports",
+    "Brunei"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00290",
+   "path": [
+    "Imports",
+    "Bulgaria"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00300",
+   "path": [
+    "Imports",
+    "Burkina Faso ( Upper Volta)"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00310",
+   "path": [
+    "Imports",
+    "Burundi"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00320",
+   "path": [
+    "Imports",
+    "Cambodia Kampuchea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00330",
+   "path": [
+    "Imports",
+    "Cameroon"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00340",
+   "path": [
+    "Imports",
+    "Canada"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00350",
+   "path": [
+    "Imports",
+    "Cape Verde"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00360",
+   "path": [
+    "Imports",
+    "Cayman Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00370",
+   "path": [
+    "Imports",
+    "Central African Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00380",
+   "path": [
+    "Imports",
+    "Chad"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00390",
+   "path": [
+    "Imports",
+    "Chile"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00400",
+   "path": [
+    "Imports",
+    "China"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00410",
+   "path": [
+    "Imports",
+    "Colombia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00420",
+   "path": [
+    "Imports",
+    "Comoros"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00430",
+   "path": [
+    "Imports",
+    "Congo"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00440",
+   "path": [
+    "Imports",
+    "Costa Rica"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00450",
+   "path": [
+    "Imports",
+    "Croatia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00460",
+   "path": [
+    "Imports",
+    "Cuba"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00470",
+   "path": [
+    "Imports",
+    "Cyprus"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00480",
+   "path": [
+    "Imports",
+    "Czech Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00490",
+   "path": [
+    "Imports",
+    "Denmark"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00500",
+   "path": [
+    "Imports",
+    "Djibouti"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00510",
+   "path": [
+    "Imports",
+    "Dominica"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00520",
+   "path": [
+    "Imports",
+    "Dominican Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00530",
+   "path": [
+    "Imports",
+    "Ecuador"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00540",
+   "path": [
+    "Imports",
+    "Egypt"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00550",
+   "path": [
+    "Imports",
+    "El Salvador"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00560",
+   "path": [
+    "Imports",
+    "Equatorial Guinea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00570",
+   "path": [
+    "Imports",
+    "Eritrea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00580",
+   "path": [
+    "Imports",
+    "Estonia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00590",
+   "path": [
+    "Imports",
+    "Ethiopia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00600",
+   "path": [
+    "Imports",
+    "Faeroe Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00610",
+   "path": [
+    "Imports",
+    "Falkland Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00620",
+   "path": [
+    "Imports",
+    "Fiji"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00630",
+   "path": [
+    "Imports",
+    "Finland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00640",
+   "path": [
+    "Imports",
+    "France"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00650",
+   "path": [
+    "Imports",
+    "French Guinea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00660",
+   "path": [
+    "Imports",
+    "Gabon"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00670",
+   "path": [
+    "Imports",
+    "Gambia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00680",
+   "path": [
+    "Imports",
+    "Georgia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00690",
+   "path": [
+    "Imports",
+    "Germany"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00700",
+   "path": [
+    "Imports",
+    "Ghana"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00710",
+   "path": [
+    "Imports",
+    "Gibraltar"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00720",
+   "path": [
+    "Imports",
+    "Greece"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00730",
+   "path": [
+    "Imports",
+    "Greenland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00740",
+   "path": [
+    "Imports",
+    "Grenada"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00750",
+   "path": [
+    "Imports",
+    "Guadeloupe"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00760",
+   "path": [
+    "Imports",
+    "Guam"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00770",
+   "path": [
+    "Imports",
+    "Guatemala"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00780",
+   "path": [
+    "Imports",
+    "Guinea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00790",
+   "path": [
+    "Imports",
+    "Guinea-Bissau"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00800",
+   "path": [
+    "Imports",
+    "Guyana"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00810",
+   "path": [
+    "Imports",
+    "Haiti"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00820",
+   "path": [
+    "Imports",
+    "Honduras"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00830",
+   "path": [
+    "Imports",
+    "Hong Kong"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00840",
+   "path": [
+    "Imports",
+    "Hungary"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00850",
+   "path": [
+    "Imports",
+    "Iceland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00860",
+   "path": [
+    "Imports",
+    "India"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00870",
+   "path": [
+    "Imports",
+    "Indonesia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00880",
+   "path": [
+    "Imports",
+    "Iran"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00890",
+   "path": [
+    "Imports",
+    "Iraq"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00900",
+   "path": [
+    "Imports",
+    "Ireland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00910",
+   "path": [
+    "Imports",
+    "Italy"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00920",
+   "path": [
+    "Imports",
+    "Ivory Coast"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00930",
+   "path": [
+    "Imports",
+    "Jamaica"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00940",
+   "path": [
+    "Imports",
+    "Japan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00950",
+   "path": [
+    "Imports",
+    "Jordan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00960",
+   "path": [
+    "Imports",
+    "Kazakhstan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00970",
+   "path": [
+    "Imports",
+    "Kenya"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00980",
+   "path": [
+    "Imports",
+    "Kiribati"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC00990",
+   "path": [
+    "Imports",
+    "Kuwait"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01000",
+   "path": [
+    "Imports",
+    "Kyrgyzstan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01010",
+   "path": [
+    "Imports",
+    "Laos"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01020",
+   "path": [
+    "Imports",
+    "Latvia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01030",
+   "path": [
+    "Imports",
+    "Lebanon"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01040",
+   "path": [
+    "Imports",
+    "Leeward Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01050",
+   "path": [
+    "Imports",
+    "Lesotho"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01060",
+   "path": [
+    "Imports",
+    "Liberia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01070",
+   "path": [
+    "Imports",
+    "Libya"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01080",
+   "path": [
+    "Imports",
+    "Lithuania"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01090",
+   "path": [
+    "Imports",
+    "Luxembourg"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01100",
+   "path": [
+    "Imports",
+    "Macao"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01110",
+   "path": [
+    "Imports",
+    "Macedonia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01120",
+   "path": [
+    "Imports",
+    "Madagascar"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01130",
+   "path": [
+    "Imports",
+    "Malawi"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01140",
+   "path": [
+    "Imports",
+    "Malaysia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01150",
+   "path": [
+    "Imports",
+    "Maldives"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01160",
+   "path": [
+    "Imports",
+    "Mali"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01170",
+   "path": [
+    "Imports",
+    "Malta"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01180",
+   "path": [
+    "Imports",
+    "Martinique"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01190",
+   "path": [
+    "Imports",
+    "Mauritania"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01200",
+   "path": [
+    "Imports",
+    "Mauritius"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01210",
+   "path": [
+    "Imports",
+    "Mexico"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01220",
+   "path": [
+    "Imports",
+    "Moldova"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01230",
+   "path": [
+    "Imports",
+    "Mongolia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01240",
+   "path": [
+    "Imports",
+    "Montserrat"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01250",
+   "path": [
+    "Imports",
+    "Morocco"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01260",
+   "path": [
+    "Imports",
+    "Mozambique"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01270",
+   "path": [
+    "Imports",
+    "Myanmar"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01280",
+   "path": [
+    "Imports",
+    "Namibia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01290",
+   "path": [
+    "Imports",
+    "Nauru"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01300",
+   "path": [
+    "Imports",
+    "Nepal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01310",
+   "path": [
+    "Imports",
+    "Netherlands (Holland)"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01320",
+   "path": [
+    "Imports",
+    "Netherlands Antilles"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01330",
+   "path": [
+    "Imports",
+    "New Caledonia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01340",
+   "path": [
+    "Imports",
+    "New Zealand"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01350",
+   "path": [
+    "Imports",
+    "Nicaragua"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01360",
+   "path": [
+    "Imports",
+    "Niger"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01370",
+   "path": [
+    "Imports",
+    "Nigeria"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01380",
+   "path": [
+    "Imports",
+    "North Korea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01390",
+   "path": [
+    "Imports",
+    "Norway"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01400",
+   "path": [
+    "Imports",
+    "Oman"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01410",
+   "path": [
+    "Imports",
+    "Panama Inc. Canal Zone"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01420",
+   "path": [
+    "Imports",
+    "Papua New Guinea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01430",
+   "path": [
+    "Imports",
+    "Paraguay"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01440",
+   "path": [
+    "Imports",
+    "Peru"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01450",
+   "path": [
+    "Imports",
+    "Philippines"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01460",
+   "path": [
+    "Imports",
+    "Poland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01470",
+   "path": [
+    "Imports",
+    "Polynesia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01480",
+   "path": [
+    "Imports",
+    "Portugal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01490",
+   "path": [
+    "Imports",
+    "Qatar"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01500",
+   "path": [
+    "Imports",
+    "Reunion Island"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01510",
+   "path": [
+    "Imports",
+    "Romania"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01520",
+   "path": [
+    "Imports",
+    "Russian Federation"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01530",
+   "path": [
+    "Imports",
+    "Rwanda"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01540",
+   "path": [
+    "Imports",
+    "Sao Tome & Principe"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01550",
+   "path": [
+    "Imports",
+    "Saudi Arabia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01560",
+   "path": [
+    "Imports",
+    "Senegal"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01570",
+   "path": [
+    "Imports",
+    "Serbia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01580",
+   "path": [
+    "Imports",
+    "Seychelles"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01590",
+   "path": [
+    "Imports",
+    "Sierra Leone"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01600",
+   "path": [
+    "Imports",
+    "Singapore"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01610",
+   "path": [
+    "Imports",
+    "Slovak Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01620",
+   "path": [
+    "Imports",
+    "Slovenia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01630",
+   "path": [
+    "Imports",
+    "Solomon Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01640",
+   "path": [
+    "Imports",
+    "Somalia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01650",
+   "path": [
+    "Imports",
+    "South Africa"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01660",
+   "path": [
+    "Imports",
+    "South Korea"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01670",
+   "path": [
+    "Imports",
+    "Spain"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01680",
+   "path": [
+    "Imports",
+    "Sri Lanka"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01690",
+   "path": [
+    "Imports",
+    "St. Helena"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01700",
+   "path": [
+    "Imports",
+    "St. Kitts-Nevis"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01710",
+   "path": [
+    "Imports",
+    "St. Lucia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01720",
+   "path": [
+    "Imports",
+    "St. Pierre & Miquelon"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01730",
+   "path": [
+    "Imports",
+    "St. Vincent"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01740",
+   "path": [
+    "Imports",
+    "Sudan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01750",
+   "path": [
+    "Imports",
+    "Suriname"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01760",
+   "path": [
+    "Imports",
+    "Swaziland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01770",
+   "path": [
+    "Imports",
+    "Sweden"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01780",
+   "path": [
+    "Imports",
+    "Switzerland"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01790",
+   "path": [
+    "Imports",
+    "Syrian Arab Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01800",
+   "path": [
+    "Imports",
+    "Tajikistan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01810",
+   "path": [
+    "Imports",
+    "Tanzania"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01820",
+   "path": [
+    "Imports",
+    "Thailand"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01830",
+   "path": [
+    "Imports",
+    "Timor-Leste"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01840",
+   "path": [
+    "Imports",
+    "Togo"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01850",
+   "path": [
+    "Imports",
+    "Tonga"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01860",
+   "path": [
+    "Imports",
+    "Trinidad and Tobago"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01870",
+   "path": [
+    "Imports",
+    "Tunisia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01880",
+   "path": [
+    "Imports",
+    "Turkey"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01890",
+   "path": [
+    "Imports",
+    "Turkmenistan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01900",
+   "path": [
+    "Imports",
+    "Tuvalu"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01910",
+   "path": [
+    "Imports",
+    "U. A. E. Abu Dhabi"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01920",
+   "path": [
+    "Imports",
+    "U. A. E. Ajman"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01930",
+   "path": [
+    "Imports",
+    "U. A. E. Dubai"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01940",
+   "path": [
+    "Imports",
+    "U. A. E. Fujairah"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01950",
+   "path": [
+    "Imports",
+    "U. A. E. Ras Al Khaimah"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01960",
+   "path": [
+    "Imports",
+    "U. A. E. Sharjah"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01970",
+   "path": [
+    "Imports",
+    "U. A. E. Ummal Quwain"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01980",
+   "path": [
+    "Imports",
+    "U. K."
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC01990",
+   "path": [
+    "Imports",
+    "U. S. A."
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02000",
+   "path": [
+    "Imports",
+    "Uganda"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02010",
+   "path": [
+    "Imports",
+    "Ukraine"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02020",
+   "path": [
+    "Imports",
+    "Upper Volta"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02030",
+   "path": [
+    "Imports",
+    "Uruguay"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02040",
+   "path": [
+    "Imports",
+    "Uzbekistan"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02050",
+   "path": [
+    "Imports",
+    "Vanuatu"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02060",
+   "path": [
+    "Imports",
+    "Venezuela"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02070",
+   "path": [
+    "Imports",
+    "Viet Nam"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02080",
+   "path": [
+    "Imports",
+    "Virgin Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02090",
+   "path": [
+    "Imports",
+    "Western Samoa"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02100",
+   "path": [
+    "Imports",
+    "Windward Islands"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02110",
+   "path": [
+    "Imports",
+    "Yemen Arab Republic"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02120",
+   "path": [
+    "Imports",
+    "Zaire"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02130",
+   "path": [
+    "Imports",
+    "Zambia"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02140",
+   "path": [
+    "Imports",
+    "Zimbabwe"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02150",
+   "path": [
+    "Imports",
+    "Other Countries"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02160",
+   "path": [
+    "Imports",
+    "Imports Payments by Banks"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02170",
+   "path": [
+    "Imports",
+    "Freight & Insurance"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02180",
+   "path": [
+    "Imports",
+    "Imports Payments Banks (fob)"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02190",
+   "path": [
+    "Imports",
+    "Other Imports"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_BOP_MRECCOU_M.IMPC02200",
+   "path": [
+    "Imports",
+    "Total Imports BOP"
+   ],
+   "unit": "usd",
+   "flow": true
+  }
+ ]
+}

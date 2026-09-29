@@ -1,0 +1,546 @@
+{
+ "_comment": "All series are already rate measures (%), grouped by calculation basis (YoY / 12-month moving average / period-average-since-July / MoM) then by index (National/Urban/Rural CPI, NFNE & Trimmed core, WPI, SPI). unit=pct, flow=false \u2014 these are rates, not summable amounts; stacking/TTM don't apply, which config.summable reflects.",
+ "dataset": "Inflation (CPI / Core / WPI / SPI)",
+ "series": [
+  {
+   "code": "TS_GP_PT_CPI_M.P00011516",
+   "path": [
+    "Year-on-Year",
+    "National CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00021516",
+   "path": [
+    "Year-on-Year",
+    "Urban CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00041516",
+   "path": [
+    "Year-on-Year",
+    "Urban Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00061516",
+   "path": [
+    "Year-on-Year",
+    "Urban Non-Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00031516",
+   "path": [
+    "Year-on-Year",
+    "Rural CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00051516",
+   "path": [
+    "Year-on-Year",
+    "Rural Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00071516",
+   "path": [
+    "Year-on-Year",
+    "Rural Non-Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00161516",
+   "path": [
+    "12-Month Moving Average",
+    "National CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00171516",
+   "path": [
+    "12-Month Moving Average",
+    "Urban CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00191516",
+   "path": [
+    "12-Month Moving Average",
+    "Urban Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00211516",
+   "path": [
+    "12-Month Moving Average",
+    "Urban Non-Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00181516",
+   "path": [
+    "12-Month Moving Average",
+    "Rural CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00201516",
+   "path": [
+    "12-Month Moving Average",
+    "Rural Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00221516",
+   "path": [
+    "12-Month Moving Average",
+    "Rural Non-Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00311516",
+   "path": [
+    "Period Average (Since July)",
+    "National CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00321516",
+   "path": [
+    "Period Average (Since July)",
+    "Urban CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00341516",
+   "path": [
+    "Period Average (Since July)",
+    "Urban Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00361516",
+   "path": [
+    "Period Average (Since July)",
+    "Urban Non-Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00331516",
+   "path": [
+    "Period Average (Since July)",
+    "Rural CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00351516",
+   "path": [
+    "Period Average (Since July)",
+    "Rural Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00371516",
+   "path": [
+    "Period Average (Since July)",
+    "Rural Non-Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00461516",
+   "path": [
+    "Month-on-Month",
+    "National CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00471516",
+   "path": [
+    "Month-on-Month",
+    "Urban CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00491516",
+   "path": [
+    "Month-on-Month",
+    "Urban Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00511516",
+   "path": [
+    "Month-on-Month",
+    "Urban Non-Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00481516",
+   "path": [
+    "Month-on-Month",
+    "Rural CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00501516",
+   "path": [
+    "Month-on-Month",
+    "Rural Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00521516",
+   "path": [
+    "Month-on-Month",
+    "Rural Non-Food CPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00121516",
+   "path": [
+    "Year-on-Year",
+    "Urban NFNE Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00131516",
+   "path": [
+    "Year-on-Year",
+    "Rural NFNE Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00271516",
+   "path": [
+    "12-Month Moving Average",
+    "Urban NFNE Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00281516",
+   "path": [
+    "12-Month Moving Average",
+    "Rural NFNE Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00421516",
+   "path": [
+    "Period Average (Since July)",
+    "Urban NFNE Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00431516",
+   "path": [
+    "Period Average (Since July)",
+    "Rural NFNE Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00571516",
+   "path": [
+    "Month-on-Month",
+    "Urban NFNE Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00581516",
+   "path": [
+    "Month-on-Month",
+    "Rural NFNE Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00141516",
+   "path": [
+    "Year-on-Year",
+    "Urban Trimmed Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00151516",
+   "path": [
+    "Year-on-Year",
+    "Rural Trimmed Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00291516",
+   "path": [
+    "12-Month Moving Average",
+    "Urban Trimmed Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00301516",
+   "path": [
+    "12-Month Moving Average",
+    "Rural Trimmed Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00441516",
+   "path": [
+    "Period Average (Since July)",
+    "Urban Trimmed Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00451516",
+   "path": [
+    "Period Average (Since July)",
+    "Rural Trimmed Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00591516",
+   "path": [
+    "Month-on-Month",
+    "Urban Trimmed Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00601516",
+   "path": [
+    "Month-on-Month",
+    "Rural Trimmed Core Inflation"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00081516",
+   "path": [
+    "Year-on-Year",
+    "WPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00091516",
+   "path": [
+    "Year-on-Year",
+    "WPI Food"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00101516",
+   "path": [
+    "Year-on-Year",
+    "WPI Non-Food"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00231516",
+   "path": [
+    "12-Month Moving Average",
+    "WPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00241516",
+   "path": [
+    "12-Month Moving Average",
+    "WPI Food"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00251516",
+   "path": [
+    "12-Month Moving Average",
+    "WPI Non-Food"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00381516",
+   "path": [
+    "Period Average (Since July)",
+    "WPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00391516",
+   "path": [
+    "Period Average (Since July)",
+    "WPI Food"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00401516",
+   "path": [
+    "Period Average (Since July)",
+    "WPI Non-Food"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00531516",
+   "path": [
+    "Month-on-Month",
+    "WPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00541516",
+   "path": [
+    "Month-on-Month",
+    "WPI Food"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00551516",
+   "path": [
+    "Month-on-Month",
+    "WPI Non-Food"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00111516",
+   "path": [
+    "Year-on-Year",
+    "SPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00261516",
+   "path": [
+    "12-Month Moving Average",
+    "SPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00411516",
+   "path": [
+    "Period Average (Since July)",
+    "SPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_PT_CPI_M.P00561516",
+   "path": [
+    "Month-on-Month",
+    "SPI"
+   ],
+   "unit": "pct",
+   "flow": false
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+name: Refresh Outstanding Advances
+
+on:
+  schedule:
+    - cron: "0 6 * * 5"   # Fridays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install --quiet pandas || true
+
+      - name: Ensure public/ exists
+        run: mkdir -p public
+
+      - name: Refresh + build Advances
+        env:
+          EASYDATA_API_KEY: ${{ secrets.EASYDATA_API_KEY }}
+        run: |
+          python3 refresh.py --map series_map.credit_advances.json --start 2000-01 --out data.credit_advances.json
+          python3 build.py --config config.credit_advances.js --data data.credit_advances.json --logo logo.png --out public/credit_advances.html
+
+      - name: Commit rebuilt files
+        run: |
+          git config user.name  "dashboard-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add public/*.html data.*.json
+          git commit -m "Auto-refresh credit_advances [skip ci]" || echo "nothing to commit"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
