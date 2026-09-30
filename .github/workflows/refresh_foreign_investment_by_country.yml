@@ -1,13 +1,10 @@
-name: Refresh Trade by Country
+name: Refresh Foreign Investment by Country
 
-# Scheduled + manual. This is the biggest of the 5 new datasets — 440
-# series against a 250/request-per-hour cap, so a single run WILL cross an
-# hour boundary and hit 429s partway through. refresh.py's own backoff
-# (5,10,20,40,80s, capped, 5 retries) handles that, but expect this run to
-# take noticeably longer than the others rather than reading it as stuck.
+# 291 series. Scheduled the evening after Trade by Commodity (finishes
+# well within 12 hours).
 on:
   schedule:
-    - cron: "0 6 * * 3"   # Wednesdays 06:00 UTC
+    - cron: "0 18 * * 2"   # Tuesdays 18:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -16,7 +13,7 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 480
+    timeout-minutes: 360
     permissions:
       contents: write
     steps:
@@ -32,19 +29,19 @@ jobs:
       - name: Ensure public/ exists
         run: mkdir -p public
 
-      - name: Refresh + build Trade by Country
+      - name: Refresh + build Foreign Investment by Country
         env:
           EASYDATA_API_KEY: ${{ secrets.EASYDATA_API_KEY }}
         run: |
-          python3 refresh.py --map series_map.trade_partners.json --start 2003-07 --out data.trade_partners.json
-          python3 build.py --config config.trade_partners.js --data data.trade_partners.json --logo logo.png --out public/trade_partners.html
+          python3 refresh.py --map series_map.foreign_investment_by_country.json --start 2007-07 --out data.foreign_investment_by_country.json
+          python3 build.py --config config.foreign_investment_by_country.js --data data.foreign_investment_by_country.json --logo logo.png --out public/foreign_investment_by_country.html
 
       - name: Commit rebuilt files
         run: |
           git config user.name  "dashboard-bot"
           git config user.email "bot@users.noreply.github.com"
           git add public/*.html data.*.json
-          git commit -m "Auto-refresh trade_partners [skip ci]" || echo "nothing to commit"
+          git commit -m "Auto-refresh foreign_investment_by_country [skip ci]" || echo "nothing to commit"
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push
 

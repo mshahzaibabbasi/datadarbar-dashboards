@@ -1,0 +1,3177 @@
+{
+ "_comment": "Path is SBP's own published hierarchy, taken directly from the semicolon-separated series name (e.g. 'Current account; Goods and services; Goods; General merchandise'), with the trailing tag (Credit/Debit/Net, or for the financial account NAFA = Net Acquisition of Financial Assets / NIL = Net Incurrence of Liabilities, standard BPM6 terms) kept as the final path segment \u2014 nothing re-derived or guessed, just split on the source's own delimiters. UNIT PLACEHOLDER: verify USD scale on first refresh.py run.",
+ "dataset": "Pakistan's Balance of Payments (BPM6 Standard Presentation)",
+ "series": [
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00010",
+   "path": [
+    "Current account",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00020",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00030",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00040",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "General merchandise",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00050",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "Net exports of goods under merchanting (only export)",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00060",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "Nonmonetary gold",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00070",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00080",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Manufacturing services on physical inputs owned by others",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00090",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Maintenance and repair services n.i.e.",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00100",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Transport",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00110",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Travel",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00120",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Construction",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00130",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Insurance and pension services",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00140",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Financial services",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00150",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Charges for the use of intellectual property n.i.e.",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00160",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Telecommunications",
+    "computer",
+    "and information services",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00170",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Other business services",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00180",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Personal",
+    "cultural",
+    "and recreational services",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00190",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Government goods and services n.i.e.",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00200",
+   "path": [
+    "Current account",
+    "Primary income",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00210",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Compensation of employees",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00220",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00230",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Direct investment",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00240",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Direct investment",
+    "Investment income on equity and investment fund shares",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00250",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Direct investment",
+    "Interest",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00260",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Portfolio investment",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00270",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Portfolio investment",
+    "Investment income on equity and investment fund shares",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00280",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Portfolio investment",
+    "Interest",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00290",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00300",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Withdrawals from income of quasi corporations",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00310",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Interest",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00320",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Investment income attributable to policyholders insurance",
+    "pension fund",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00330",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Reserve Assets",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00340",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Other Primary Income",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00350",
+   "path": [
+    "Current account",
+    "Secondary income",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00360",
+   "path": [
+    "Current account",
+    "Secondary income",
+    "General government",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00370",
+   "path": [
+    "Current account",
+    "Secondary income",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00380",
+   "path": [
+    "Capital account",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00390",
+   "path": [
+    "Capital account",
+    "Gross acquisitions (DR.)/disposals (CR.) of nonproduced nonfinancial assets",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00400",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00410",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "General government",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00420",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "General government",
+    "Debt forgiveness",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00430",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "General government",
+    "Other Capital transfers",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00440",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00450",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Debt forgiveness",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00460",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Other Capital transfers",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00470",
+   "path": [
+    "Net lending (+)/ net borrowing ( - )  (balance from current and capital accounts)",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00480",
+   "path": [
+    "Financial account",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00490",
+   "path": [
+    "Financial account",
+    "Direct investment",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00500",
+   "path": [
+    "Financial account",
+    "Direct investment",
+    "Equity and investment fund shares",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00510",
+   "path": [
+    "Financial account",
+    "Direct investment",
+    "Debt instruments",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00520",
+   "path": [
+    "Financial account",
+    "Portfolio investment",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00530",
+   "path": [
+    "Financial account",
+    "Portfolio investment",
+    "Equity and investment fund shares",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00540",
+   "path": [
+    "Financial account",
+    "Portfolio investment",
+    "Debt instruments",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00550",
+   "path": [
+    "Financial account",
+    "Financial derivatives (other than reserves) and employee stock options",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00560",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00570",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other equity",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00580",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00590",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "Central bank",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00600",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00610",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "General government",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00620",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "Other sectors",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00630",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00640",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "Central bank",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00650",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00660",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "General government",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00670",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "Other sectors",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00680",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00690",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "Central bank",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00700",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00710",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "General government",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00720",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "Other sectors",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00730",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00740",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "Central bank",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00750",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00760",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "General government",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00770",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "Other sectors",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00780",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00790",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "Central bank",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00800",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00810",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "General government",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00820",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "Other sectors",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00830",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Special drawing rights",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00840",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00850",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Monetary gold",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00860",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Special drawing rights",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00870",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Reserve position in the IMF",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00880",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Other reserve assets",
+    "NAFA"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00890",
+   "path": [
+    "Errors and Omissions",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00900",
+   "path": [
+    "Exceptional Financing",
+    "Credit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00910",
+   "path": [
+    "Current account",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00920",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00930",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00940",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "General merchandise",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00950",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "Net exports of goods under merchanting (only export)",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00960",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "Nonmonetary gold",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00970",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00980",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Manufacturing services on physical inputs owned by others",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA00990",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Maintenance and repair services n.i.e.",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01000",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Transport",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01010",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Travel",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01020",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Construction",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01030",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Insurance and pension services",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01040",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Financial services",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01050",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Charges for the use of intellectual property n.i.e.",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01060",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Telecommunications",
+    "computer",
+    "and information services",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01070",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Other business services",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01080",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Personal",
+    "cultural",
+    "and recreational services",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01090",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Government goods and services n.i.e.",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01100",
+   "path": [
+    "Current account",
+    "Primary income",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01110",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Compensation of employees",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01120",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01130",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Direct investment",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01140",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Direct investment",
+    "Investment income on equity and investment fund shares",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01150",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Direct investment",
+    "Interest",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01160",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Portfolio investment",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01170",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Portfolio investment",
+    "Investment income on equity and investment fund shares",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01180",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Portfolio investment",
+    "Interest",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01190",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01200",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Withdrawals from income of quasi corporations",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01210",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Interest",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01220",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Investment income attributable to policyholders insurance",
+    "pension fund",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01230",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Reserve Assets",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01240",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Other Primary Income",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01250",
+   "path": [
+    "Current account",
+    "Secondary income",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01260",
+   "path": [
+    "Current account",
+    "Secondary income",
+    "General government",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01270",
+   "path": [
+    "Current account",
+    "Secondary income",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01280",
+   "path": [
+    "Capital account",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01290",
+   "path": [
+    "Capital account",
+    "Gross acquisitions (DR.)/disposals (CR.) of nonproduced nonfinancial assets",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01300",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01310",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "General government",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01320",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "General government",
+    "Debt forgiveness",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01330",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "General government",
+    "Other Capital transfers",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01340",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01350",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Debt forgiveness",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01360",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Other Capital transfers",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01370",
+   "path": [
+    "Net lending (+)/ net borrowing ( - )  (balance from current and capital accounts)",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01380",
+   "path": [
+    "Financial account",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01390",
+   "path": [
+    "Financial account",
+    "Direct investment",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01400",
+   "path": [
+    "Financial account",
+    "Direct investment",
+    "Equity and investment fund shares",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01410",
+   "path": [
+    "Financial account",
+    "Direct investment",
+    "Debt instruments",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01420",
+   "path": [
+    "Financial account",
+    "Portfolio investment",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01430",
+   "path": [
+    "Financial account",
+    "Portfolio investment",
+    "Equity and investment fund shares",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01440",
+   "path": [
+    "Financial account",
+    "Portfolio investment",
+    "Debt instruments",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01450",
+   "path": [
+    "Financial account",
+    "Financial derivatives (other than reserves) and employee stock options",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01460",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01470",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other equity",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01480",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01490",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "Central bank",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01500",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01510",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "General government",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01520",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "Other sectors",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01530",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01540",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "Central bank",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01550",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01560",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "General government",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01570",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "Other sectors",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01580",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01590",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "Central bank",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01600",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01610",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "General government",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01620",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "Other sectors",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01630",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01640",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "Central bank",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01650",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01660",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "General government",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01670",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "Other sectors",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01680",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01690",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "Central bank",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01700",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01710",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "General government",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01720",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "Other sectors",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01730",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Special drawing rights",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01740",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01750",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Monetary gold",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01760",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Special drawing rights",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01770",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Reserve position in the IMF",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01780",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Other reserve assets",
+    "NIL"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01790",
+   "path": [
+    "Errors and Omissions",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01800",
+   "path": [
+    "Exceptional Financing",
+    "Debit"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01810",
+   "path": [
+    "Current account",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01820",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01830",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01840",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "General merchandise",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01850",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "Net exports of goods under merchanting (only export)",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01860",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Goods",
+    "Nonmonetary gold",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01870",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01880",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Manufacturing services on physical inputs owned by others",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01890",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Maintenance and repair services n.i.e.",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01900",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Transport",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01910",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Travel",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01920",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Construction",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01930",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Insurance and pension services",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01940",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Financial services",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01950",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Charges for the use of intellectual property n.i.e.",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01960",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Telecommunications",
+    "computer",
+    "and information services",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01970",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Other business services",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01980",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Personal",
+    "cultural",
+    "and recreational services",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA01990",
+   "path": [
+    "Current account",
+    "Goods and services",
+    "Services",
+    "Government goods and services n.i.e.",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02000",
+   "path": [
+    "Current account",
+    "Primary income",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02010",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Compensation of employees",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02020",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02030",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Direct investment",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02040",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Direct investment",
+    "Investment income on equity and investment fund shares",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02050",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Direct investment",
+    "Interest",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02060",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Portfolio investment",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02070",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Portfolio investment",
+    "Investment income on equity and investment fund shares",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02080",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Portfolio investment",
+    "Interest",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02090",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02100",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Withdrawals from income of quasi corporations",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02110",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Interest",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02120",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Other investment",
+    "Investment income attributable to policyholders insurance",
+    "pension fund",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02130",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Investment income",
+    "Reserve Assets",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02140",
+   "path": [
+    "Current account",
+    "Primary Income",
+    "Other Primary Income",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02150",
+   "path": [
+    "Current account",
+    "Secondary income",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02160",
+   "path": [
+    "Current account",
+    "Secondary income",
+    "General government",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02170",
+   "path": [
+    "Current account",
+    "Secondary income",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02180",
+   "path": [
+    "Capital account",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02190",
+   "path": [
+    "Capital account",
+    "Gross acquisitions (DR.)/disposals (CR.) of nonproduced nonfinancial assets",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02200",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02210",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "General government",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02220",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "General government",
+    "Debt forgiveness",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02230",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "General government",
+    "Other Capital transfers",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02240",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02250",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Debt forgiveness",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02260",
+   "path": [
+    "Capital account",
+    "Capital transfers",
+    "Financial corporations",
+    "nonfinancial corporations",
+    "households",
+    "and NPISHs",
+    "Other Capital transfers",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02270",
+   "path": [
+    "Net lending (+)/ net borrowing ( - )  (balance from current and capital accounts)",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02280",
+   "path": [
+    "Financial account",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02290",
+   "path": [
+    "Financial account",
+    "Direct investment",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02300",
+   "path": [
+    "Financial account",
+    "Direct investment",
+    "Equity and investment fund shares",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02310",
+   "path": [
+    "Financial account",
+    "Direct investment",
+    "Debt instruments",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02320",
+   "path": [
+    "Financial account",
+    "Portfolio investment",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02330",
+   "path": [
+    "Financial account",
+    "Portfolio investment",
+    "Equity and investment fund shares",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02340",
+   "path": [
+    "Financial account",
+    "Portfolio investment",
+    "Debt instruments",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02350",
+   "path": [
+    "Financial account",
+    "Financial derivatives (other than reserves) and employee stock options",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02360",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02370",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other equity",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02380",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02390",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "Central bank",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02400",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02410",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "General government",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02420",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Currency and deposits",
+    "Other sectors",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02430",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02440",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "Central bank",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02450",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02460",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "General government",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02470",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Loans",
+    "Other sectors",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02480",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02490",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "Central bank",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02500",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02510",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "General government",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02520",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Insurance",
+    "pension",
+    "and standardized guarantee scheme",
+    "Other sectors",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02530",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02540",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "Central bank",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02550",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02560",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "General government",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02570",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Trade credit and advances",
+    "Other sectors",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02580",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02590",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "Central bank",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02600",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "Deposit-taking corporations",
+    "except the central bank",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02610",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "General government",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02620",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Other accounts receivable/ Payable",
+    "Other sectors",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02630",
+   "path": [
+    "Financial account",
+    "Other investment",
+    "Special drawing rights",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02640",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02650",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Monetary gold",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02660",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Special drawing rights",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02670",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Reserve position in the IMF",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02680",
+   "path": [
+    "Financial account",
+    "Reserve assets",
+    "Other reserve assets",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02690",
+   "path": [
+    "Errors and Omissions",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_ES_PKBOPSTND_M.BOPSNA02700",
+   "path": [
+    "Exceptional Financing",
+    "Net"
+   ],
+   "unit": "usd",
+   "flow": true
+  }
+ ]
+}

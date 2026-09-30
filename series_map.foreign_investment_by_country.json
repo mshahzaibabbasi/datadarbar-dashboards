@@ -1,0 +1,2625 @@
+{
+ "_comment": "World total (6 metrics incl. Net Public FI, which has no per-country equivalent) + ~57 countries + an 'Other Countries' bucket, each with the 5 common metrics (Net FI, Net FDI, FDI inflows, FDI outflows, Net Portfolio). UNIT PLACEHOLDER: verify USD scale on first refresh.py run.",
+ "dataset": "Foreign Investment in Pakistan by Country",
+ "series": [
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0010",
+   "path": [
+    "World",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0020",
+   "path": [
+    "World",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0030",
+   "path": [
+    "World",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0040",
+   "path": [
+    "World",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0050",
+   "path": [
+    "World",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0060",
+   "path": [
+    "World",
+    "Net Public Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0070",
+   "path": [
+    "Argentina",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0080",
+   "path": [
+    "Argentina",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0090",
+   "path": [
+    "Argentina",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0100",
+   "path": [
+    "Argentina",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0110",
+   "path": [
+    "Argentina",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0120",
+   "path": [
+    "Australia",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0130",
+   "path": [
+    "Australia",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0140",
+   "path": [
+    "Australia",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0150",
+   "path": [
+    "Australia",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0160",
+   "path": [
+    "Australia",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0170",
+   "path": [
+    "Austria",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0180",
+   "path": [
+    "Austria",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0190",
+   "path": [
+    "Austria",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0200",
+   "path": [
+    "Austria",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0210",
+   "path": [
+    "Austria",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0220",
+   "path": [
+    "Bahamas",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0230",
+   "path": [
+    "Bahamas",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0240",
+   "path": [
+    "Bahamas",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0250",
+   "path": [
+    "Bahamas",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0260",
+   "path": [
+    "Bahamas",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0270",
+   "path": [
+    "Bahrain",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0280",
+   "path": [
+    "Bahrain",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0290",
+   "path": [
+    "Bahrain",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0300",
+   "path": [
+    "Bahrain",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0310",
+   "path": [
+    "Bahrain",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0320",
+   "path": [
+    "Bangladesh",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0330",
+   "path": [
+    "Bangladesh",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0340",
+   "path": [
+    "Bangladesh",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0350",
+   "path": [
+    "Bangladesh",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0360",
+   "path": [
+    "Bangladesh",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0370",
+   "path": [
+    "Belgium",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0380",
+   "path": [
+    "Belgium",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0390",
+   "path": [
+    "Belgium",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0400",
+   "path": [
+    "Belgium",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0410",
+   "path": [
+    "Belgium",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0420",
+   "path": [
+    "Bosnia Herzegovina",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0430",
+   "path": [
+    "Bosnia Herzegovina",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0440",
+   "path": [
+    "Bosnia Herzegovina",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0450",
+   "path": [
+    "Bosnia Herzegovina",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0460",
+   "path": [
+    "Bosnia Herzegovina",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0470",
+   "path": [
+    "Brunei",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0480",
+   "path": [
+    "Brunei",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0490",
+   "path": [
+    "Brunei",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0500",
+   "path": [
+    "Brunei",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0510",
+   "path": [
+    "Brunei",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0520",
+   "path": [
+    "Canada",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0530",
+   "path": [
+    "Canada",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0540",
+   "path": [
+    "Canada",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0550",
+   "path": [
+    "Canada",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0560",
+   "path": [
+    "Canada",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0570",
+   "path": [
+    "China",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0580",
+   "path": [
+    "China",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0590",
+   "path": [
+    "China",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0600",
+   "path": [
+    "China",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0610",
+   "path": [
+    "China",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0630",
+   "path": [
+    "Congo",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0640",
+   "path": [
+    "Congo",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0650",
+   "path": [
+    "Congo",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0660",
+   "path": [
+    "Congo",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0670",
+   "path": [
+    "Congo",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0680",
+   "path": [
+    "Denmark",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0690",
+   "path": [
+    "Denmark",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0700",
+   "path": [
+    "Denmark",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0710",
+   "path": [
+    "Denmark",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0720",
+   "path": [
+    "Denmark",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0730",
+   "path": [
+    "Egypt",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0740",
+   "path": [
+    "Egypt",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0750",
+   "path": [
+    "Egypt",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0760",
+   "path": [
+    "Egypt",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0770",
+   "path": [
+    "Egypt",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0780",
+   "path": [
+    "Finland",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0790",
+   "path": [
+    "Finland",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0800",
+   "path": [
+    "Finland",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0810",
+   "path": [
+    "Finland",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0820",
+   "path": [
+    "Finland",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0830",
+   "path": [
+    "France",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0840",
+   "path": [
+    "France",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0850",
+   "path": [
+    "France",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0860",
+   "path": [
+    "France",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0870",
+   "path": [
+    "France",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0880",
+   "path": [
+    "Germany",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0890",
+   "path": [
+    "Germany",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0900",
+   "path": [
+    "Germany",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0910",
+   "path": [
+    "Germany",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0920",
+   "path": [
+    "Germany",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0930",
+   "path": [
+    "Hong Kong",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0940",
+   "path": [
+    "Hong Kong",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0950",
+   "path": [
+    "Hong Kong",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0960",
+   "path": [
+    "Hong Kong",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0970",
+   "path": [
+    "Hong Kong",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0980",
+   "path": [
+    "Hungary",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC0990",
+   "path": [
+    "Hungary",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1000",
+   "path": [
+    "Hungary",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1010",
+   "path": [
+    "Hungary",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1020",
+   "path": [
+    "Hungary",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1030",
+   "path": [
+    "Iceland",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1040",
+   "path": [
+    "Iceland",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1050",
+   "path": [
+    "Iceland",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1060",
+   "path": [
+    "Iceland",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1070",
+   "path": [
+    "Iceland",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1080",
+   "path": [
+    "Indonesia",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1090",
+   "path": [
+    "Indonesia",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1100",
+   "path": [
+    "Indonesia",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1110",
+   "path": [
+    "Indonesia",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1120",
+   "path": [
+    "Indonesia",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1130",
+   "path": [
+    "Iran",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1140",
+   "path": [
+    "Iran",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1150",
+   "path": [
+    "Iran",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1160",
+   "path": [
+    "Iran",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1170",
+   "path": [
+    "Iran",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1180",
+   "path": [
+    "Ireland",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1190",
+   "path": [
+    "Ireland",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1200",
+   "path": [
+    "Ireland",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1210",
+   "path": [
+    "Ireland",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1220",
+   "path": [
+    "Ireland",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1230",
+   "path": [
+    "Italy",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1240",
+   "path": [
+    "Italy",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1250",
+   "path": [
+    "Italy",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1260",
+   "path": [
+    "Italy",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1270",
+   "path": [
+    "Italy",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1280",
+   "path": [
+    "Japan",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1290",
+   "path": [
+    "Japan",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1300",
+   "path": [
+    "Japan",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1310",
+   "path": [
+    "Japan",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1320",
+   "path": [
+    "Japan",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1330",
+   "path": [
+    "Kenya",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1340",
+   "path": [
+    "Kenya",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1350",
+   "path": [
+    "Kenya",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1360",
+   "path": [
+    "Kenya",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1370",
+   "path": [
+    "Kenya",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1380",
+   "path": [
+    "S. Korea",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1390",
+   "path": [
+    "S. Korea",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1400",
+   "path": [
+    "S. Korea",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1410",
+   "path": [
+    "S. Korea",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1420",
+   "path": [
+    "S. Korea",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1430",
+   "path": [
+    "Kuwait",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1440",
+   "path": [
+    "Kuwait",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1450",
+   "path": [
+    "Kuwait",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1460",
+   "path": [
+    "Kuwait",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1470",
+   "path": [
+    "Kuwait",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1480",
+   "path": [
+    "Lebanon",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1490",
+   "path": [
+    "Lebanon",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1500",
+   "path": [
+    "Lebanon",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1510",
+   "path": [
+    "Lebanon",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1520",
+   "path": [
+    "Lebanon",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1530",
+   "path": [
+    "Liberia",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1540",
+   "path": [
+    "Liberia",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1550",
+   "path": [
+    "Liberia",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1560",
+   "path": [
+    "Liberia",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1570",
+   "path": [
+    "Liberia",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1580",
+   "path": [
+    "Libya",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1590",
+   "path": [
+    "Libya",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1600",
+   "path": [
+    "Libya",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1610",
+   "path": [
+    "Libya",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1620",
+   "path": [
+    "Libya",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1630",
+   "path": [
+    "Luxembourg",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1640",
+   "path": [
+    "Luxembourg",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1650",
+   "path": [
+    "Luxembourg",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1660",
+   "path": [
+    "Luxembourg",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1670",
+   "path": [
+    "Luxembourg",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1680",
+   "path": [
+    "Malaysia",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1690",
+   "path": [
+    "Malaysia",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1700",
+   "path": [
+    "Malaysia",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1710",
+   "path": [
+    "Malaysia",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1720",
+   "path": [
+    "Malaysia",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1730",
+   "path": [
+    "Malta",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1740",
+   "path": [
+    "Malta",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1750",
+   "path": [
+    "Malta",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1760",
+   "path": [
+    "Malta",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1770",
+   "path": [
+    "Malta",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1780",
+   "path": [
+    "Netherland",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1790",
+   "path": [
+    "Netherland",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1800",
+   "path": [
+    "Netherland",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1810",
+   "path": [
+    "Netherland",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1820",
+   "path": [
+    "Netherland",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1830",
+   "path": [
+    "New Zealand",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1840",
+   "path": [
+    "New Zealand",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1850",
+   "path": [
+    "New Zealand",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1860",
+   "path": [
+    "New Zealand",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1870",
+   "path": [
+    "New Zealand",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1880",
+   "path": [
+    "Nigeria",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1890",
+   "path": [
+    "Nigeria",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1900",
+   "path": [
+    "Nigeria",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1910",
+   "path": [
+    "Nigeria",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1920",
+   "path": [
+    "Nigeria",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1930",
+   "path": [
+    "Norway",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1940",
+   "path": [
+    "Norway",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1950",
+   "path": [
+    "Norway",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1960",
+   "path": [
+    "Norway",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1970",
+   "path": [
+    "Norway",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1980",
+   "path": [
+    "Oman",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC1990",
+   "path": [
+    "Oman",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2000",
+   "path": [
+    "Oman",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2010",
+   "path": [
+    "Oman",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2020",
+   "path": [
+    "Oman",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2030",
+   "path": [
+    "Panama",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2040",
+   "path": [
+    "Panama",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2050",
+   "path": [
+    "Panama",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2060",
+   "path": [
+    "Panama",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2070",
+   "path": [
+    "Panama",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2080",
+   "path": [
+    "Philippine",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2090",
+   "path": [
+    "Philippine",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2100",
+   "path": [
+    "Philippine",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2110",
+   "path": [
+    "Philippine",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2120",
+   "path": [
+    "Philippine",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2130",
+   "path": [
+    "Poland",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2140",
+   "path": [
+    "Poland",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2150",
+   "path": [
+    "Poland",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2160",
+   "path": [
+    "Poland",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2170",
+   "path": [
+    "Poland",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2180",
+   "path": [
+    "Portugal",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2190",
+   "path": [
+    "Portugal",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2200",
+   "path": [
+    "Portugal",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2210",
+   "path": [
+    "Portugal",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2220",
+   "path": [
+    "Portugal",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2230",
+   "path": [
+    "Qatar",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2240",
+   "path": [
+    "Qatar",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2250",
+   "path": [
+    "Qatar",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2260",
+   "path": [
+    "Qatar",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2270",
+   "path": [
+    "Qatar",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2280",
+   "path": [
+    "Saudi Arabia",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2290",
+   "path": [
+    "Saudi Arabia",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2300",
+   "path": [
+    "Saudi Arabia",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2310",
+   "path": [
+    "Saudi Arabia",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2320",
+   "path": [
+    "Saudi Arabia",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2330",
+   "path": [
+    "Seychelles",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2340",
+   "path": [
+    "Seychelles",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2350",
+   "path": [
+    "Seychelles",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2360",
+   "path": [
+    "Seychelles",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2370",
+   "path": [
+    "Seychelles",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2380",
+   "path": [
+    "Singapore",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2390",
+   "path": [
+    "Singapore",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2400",
+   "path": [
+    "Singapore",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2410",
+   "path": [
+    "Singapore",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2420",
+   "path": [
+    "Singapore",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2430",
+   "path": [
+    "South Africa",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2440",
+   "path": [
+    "South Africa",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2450",
+   "path": [
+    "South Africa",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2460",
+   "path": [
+    "South Africa",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2470",
+   "path": [
+    "South Africa",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2480",
+   "path": [
+    "Sri Lanka",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2490",
+   "path": [
+    "Sri Lanka",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2500",
+   "path": [
+    "Sri Lanka",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2510",
+   "path": [
+    "Sri Lanka",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2520",
+   "path": [
+    "Sri Lanka",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2530",
+   "path": [
+    "Sweden",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2540",
+   "path": [
+    "Sweden",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2550",
+   "path": [
+    "Sweden",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2560",
+   "path": [
+    "Sweden",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2570",
+   "path": [
+    "Sweden",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2580",
+   "path": [
+    "Switzerland",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2590",
+   "path": [
+    "Switzerland",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2600",
+   "path": [
+    "Switzerland",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2610",
+   "path": [
+    "Switzerland",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2620",
+   "path": [
+    "Switzerland",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2630",
+   "path": [
+    "Thailand",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2640",
+   "path": [
+    "Thailand",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2650",
+   "path": [
+    "Thailand",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2660",
+   "path": [
+    "Thailand",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2670",
+   "path": [
+    "Thailand",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2680",
+   "path": [
+    "Turkiye",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2690",
+   "path": [
+    "Turkiye",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2700",
+   "path": [
+    "Turkiye",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2710",
+   "path": [
+    "Turkiye",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2720",
+   "path": [
+    "Turkiye",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2730",
+   "path": [
+    "U.A.E",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2740",
+   "path": [
+    "U.A.E",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2750",
+   "path": [
+    "U.A.E",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2760",
+   "path": [
+    "U.A.E",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2770",
+   "path": [
+    "U.A.E",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2780",
+   "path": [
+    "U.K",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2790",
+   "path": [
+    "U.K",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2800",
+   "path": [
+    "U.K",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2810",
+   "path": [
+    "U.K",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2820",
+   "path": [
+    "U.K",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2830",
+   "path": [
+    "U.S.A",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2840",
+   "path": [
+    "U.S.A",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2850",
+   "path": [
+    "U.S.A",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2860",
+   "path": [
+    "U.S.A",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2870",
+   "path": [
+    "U.S.A",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2880",
+   "path": [
+    "Other Countries",
+    "Net Foreign Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2890",
+   "path": [
+    "Other Countries",
+    "Net FDI"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2900",
+   "path": [
+    "Other Countries",
+    "FDI Inflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2910",
+   "path": [
+    "Other Countries",
+    "FDI Outflows"
+   ],
+   "unit": "usd",
+   "flow": true
+  },
+  {
+   "code": "TS_GP_FI_FIPKBYCOU_M.FIC2920",
+   "path": [
+    "Other Countries",
+    "Net Portfolio Investment"
+   ],
+   "unit": "usd",
+   "flow": true
+  }
+ ]
+}

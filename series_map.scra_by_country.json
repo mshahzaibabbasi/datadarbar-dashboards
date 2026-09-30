@@ -1,0 +1,4821 @@
+{
+ "_comment": "45 countries x {Inflows, Outflows} x {Equity, T-Bills, PIBs, Others, (Total = the country/direction node's own value)} + 1 Net Flows figure per country, plus an 'All Countries' aggregate node mirroring the same shape (495 total, confirmed exact: 45x11 + 2x5 + 2 = 495... see code for the precise walk). flow=false: despite being monthly observations, SBP's own series names say 'Monthly CUMULATIVE' \u2014 this reads as a fiscal-year-to-date running total (resets each July), not a discrete monthly flow, so summing across months would double count. NOT VERIFIED against a live pull \u2014 flagged, not guessed. UNIT PLACEHOLDER: verify USD scale on first refresh.py run.",
+ "dataset": "Special Convertible Rupee Accounts (SCRA) by Country",
+ "series": [
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00010",
+   "path": [
+    "Austria",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00020",
+   "path": [
+    "Austria",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00030",
+   "path": [
+    "Austria",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00040",
+   "path": [
+    "Austria",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00050",
+   "path": [
+    "Austria",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00060",
+   "path": [
+    "Austria",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00070",
+   "path": [
+    "Austria",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00080",
+   "path": [
+    "Austria",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00090",
+   "path": [
+    "Austria",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00100",
+   "path": [
+    "Austria",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00110",
+   "path": [
+    "Austria",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00120",
+   "path": [
+    "Bahamas",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00130",
+   "path": [
+    "Bahamas",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00140",
+   "path": [
+    "Bahamas",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00150",
+   "path": [
+    "Bahamas",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00160",
+   "path": [
+    "Bahamas",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00170",
+   "path": [
+    "Bahamas",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00180",
+   "path": [
+    "Bahamas",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00190",
+   "path": [
+    "Bahamas",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00200",
+   "path": [
+    "Bahamas",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00210",
+   "path": [
+    "Bahamas",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00220",
+   "path": [
+    "Bahamas",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00230",
+   "path": [
+    "Ireland",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00240",
+   "path": [
+    "Ireland",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00250",
+   "path": [
+    "Ireland",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00260",
+   "path": [
+    "Ireland",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00270",
+   "path": [
+    "Ireland",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00280",
+   "path": [
+    "Ireland",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00290",
+   "path": [
+    "Ireland",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00300",
+   "path": [
+    "Ireland",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00310",
+   "path": [
+    "Ireland",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00320",
+   "path": [
+    "Ireland",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00330",
+   "path": [
+    "Ireland",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00340",
+   "path": [
+    "Japan",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00350",
+   "path": [
+    "Japan",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00360",
+   "path": [
+    "Japan",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00370",
+   "path": [
+    "Japan",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00380",
+   "path": [
+    "Japan",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00390",
+   "path": [
+    "Japan",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00400",
+   "path": [
+    "Japan",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00410",
+   "path": [
+    "Japan",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00420",
+   "path": [
+    "Japan",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00430",
+   "path": [
+    "Japan",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00440",
+   "path": [
+    "Japan",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00450",
+   "path": [
+    "Bahrain",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00460",
+   "path": [
+    "Bahrain",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00470",
+   "path": [
+    "Bahrain",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00480",
+   "path": [
+    "Bahrain",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00490",
+   "path": [
+    "Bahrain",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00500",
+   "path": [
+    "Bahrain",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00510",
+   "path": [
+    "Bahrain",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00520",
+   "path": [
+    "Bahrain",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00530",
+   "path": [
+    "Bahrain",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00540",
+   "path": [
+    "Bahrain",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00550",
+   "path": [
+    "Bahrain",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00560",
+   "path": [
+    "South Korea",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00570",
+   "path": [
+    "South Korea",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00580",
+   "path": [
+    "South Korea",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00590",
+   "path": [
+    "South Korea",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00600",
+   "path": [
+    "South Korea",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00610",
+   "path": [
+    "South Korea",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00620",
+   "path": [
+    "South Korea",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00630",
+   "path": [
+    "South Korea",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00640",
+   "path": [
+    "South Korea",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00650",
+   "path": [
+    "South Korea",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00660",
+   "path": [
+    "South Korea",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00670",
+   "path": [
+    "Kuwait",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00680",
+   "path": [
+    "Kuwait",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00690",
+   "path": [
+    "Kuwait",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00700",
+   "path": [
+    "Kuwait",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00710",
+   "path": [
+    "Kuwait",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00720",
+   "path": [
+    "Kuwait",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00730",
+   "path": [
+    "Kuwait",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00740",
+   "path": [
+    "Kuwait",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00750",
+   "path": [
+    "Kuwait",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00760",
+   "path": [
+    "Kuwait",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00770",
+   "path": [
+    "Kuwait",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00780",
+   "path": [
+    "Liberia",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00790",
+   "path": [
+    "Liberia",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00800",
+   "path": [
+    "Liberia",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00810",
+   "path": [
+    "Liberia",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00820",
+   "path": [
+    "Liberia",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00830",
+   "path": [
+    "Liberia",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00840",
+   "path": [
+    "Liberia",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00850",
+   "path": [
+    "Liberia",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00860",
+   "path": [
+    "Liberia",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00870",
+   "path": [
+    "Liberia",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00880",
+   "path": [
+    "Liberia",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00890",
+   "path": [
+    "Luxembourg",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00900",
+   "path": [
+    "Luxembourg",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00910",
+   "path": [
+    "Luxembourg",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00920",
+   "path": [
+    "Luxembourg",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00930",
+   "path": [
+    "Luxembourg",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00940",
+   "path": [
+    "Luxembourg",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00950",
+   "path": [
+    "Luxembourg",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00960",
+   "path": [
+    "Luxembourg",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00970",
+   "path": [
+    "Luxembourg",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00980",
+   "path": [
+    "Luxembourg",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P00990",
+   "path": [
+    "Luxembourg",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01000",
+   "path": [
+    "Malaysia",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01010",
+   "path": [
+    "Malaysia",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01020",
+   "path": [
+    "Malaysia",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01030",
+   "path": [
+    "Malaysia",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01040",
+   "path": [
+    "Malaysia",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01050",
+   "path": [
+    "Malaysia",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01060",
+   "path": [
+    "Malaysia",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01070",
+   "path": [
+    "Malaysia",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01080",
+   "path": [
+    "Malaysia",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01090",
+   "path": [
+    "Malaysia",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01100",
+   "path": [
+    "Malaysia",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01110",
+   "path": [
+    "Marshall Island",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01120",
+   "path": [
+    "Marshall Island",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01130",
+   "path": [
+    "Marshall Island",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01140",
+   "path": [
+    "Marshall Island",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01150",
+   "path": [
+    "Marshall Island",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01160",
+   "path": [
+    "Marshall Island",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01170",
+   "path": [
+    "Marshall Island",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01180",
+   "path": [
+    "Marshall Island",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01190",
+   "path": [
+    "Marshall Island",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01200",
+   "path": [
+    "Marshall Island",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01210",
+   "path": [
+    "Marshall Island",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01220",
+   "path": [
+    "Mauritius",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01230",
+   "path": [
+    "Mauritius",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01240",
+   "path": [
+    "Mauritius",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01250",
+   "path": [
+    "Mauritius",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01260",
+   "path": [
+    "Mauritius",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01270",
+   "path": [
+    "Mauritius",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01280",
+   "path": [
+    "Mauritius",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01290",
+   "path": [
+    "Mauritius",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01300",
+   "path": [
+    "Mauritius",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01310",
+   "path": [
+    "Mauritius",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01320",
+   "path": [
+    "Mauritius",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01330",
+   "path": [
+    "Belgium",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01340",
+   "path": [
+    "Belgium",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01350",
+   "path": [
+    "Belgium",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01360",
+   "path": [
+    "Belgium",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01370",
+   "path": [
+    "Belgium",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01380",
+   "path": [
+    "Belgium",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01390",
+   "path": [
+    "Belgium",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01400",
+   "path": [
+    "Belgium",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01410",
+   "path": [
+    "Belgium",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01420",
+   "path": [
+    "Belgium",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01430",
+   "path": [
+    "Belgium",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01440",
+   "path": [
+    "Netherland",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01450",
+   "path": [
+    "Netherland",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01460",
+   "path": [
+    "Netherland",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01470",
+   "path": [
+    "Netherland",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01480",
+   "path": [
+    "Netherland",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01490",
+   "path": [
+    "Netherland",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01500",
+   "path": [
+    "Netherland",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01510",
+   "path": [
+    "Netherland",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01520",
+   "path": [
+    "Netherland",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01530",
+   "path": [
+    "Netherland",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01540",
+   "path": [
+    "Netherland",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01550",
+   "path": [
+    "New Zealand",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01560",
+   "path": [
+    "New Zealand",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01570",
+   "path": [
+    "New Zealand",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01580",
+   "path": [
+    "New Zealand",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01590",
+   "path": [
+    "New Zealand",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01600",
+   "path": [
+    "New Zealand",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01610",
+   "path": [
+    "New Zealand",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01620",
+   "path": [
+    "New Zealand",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01630",
+   "path": [
+    "New Zealand",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01640",
+   "path": [
+    "New Zealand",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01650",
+   "path": [
+    "New Zealand",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01660",
+   "path": [
+    "Oman",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01670",
+   "path": [
+    "Oman",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01680",
+   "path": [
+    "Oman",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01690",
+   "path": [
+    "Oman",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01700",
+   "path": [
+    "Oman",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01710",
+   "path": [
+    "Oman",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01720",
+   "path": [
+    "Oman",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01730",
+   "path": [
+    "Oman",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01740",
+   "path": [
+    "Oman",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01750",
+   "path": [
+    "Oman",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01760",
+   "path": [
+    "Oman",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01770",
+   "path": [
+    "Belize",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01780",
+   "path": [
+    "Belize",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01790",
+   "path": [
+    "Belize",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01800",
+   "path": [
+    "Belize",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01810",
+   "path": [
+    "Belize",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01820",
+   "path": [
+    "Belize",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01830",
+   "path": [
+    "Belize",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01840",
+   "path": [
+    "Belize",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01850",
+   "path": [
+    "Belize",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01860",
+   "path": [
+    "Belize",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01870",
+   "path": [
+    "Belize",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01880",
+   "path": [
+    "Philippines",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01890",
+   "path": [
+    "Philippines",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01900",
+   "path": [
+    "Philippines",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01910",
+   "path": [
+    "Philippines",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01920",
+   "path": [
+    "Philippines",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01930",
+   "path": [
+    "Philippines",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01940",
+   "path": [
+    "Philippines",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01950",
+   "path": [
+    "Philippines",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01960",
+   "path": [
+    "Philippines",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01970",
+   "path": [
+    "Philippines",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01980",
+   "path": [
+    "Philippines",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P01990",
+   "path": [
+    "Qatar",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02000",
+   "path": [
+    "Qatar",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02010",
+   "path": [
+    "Qatar",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02020",
+   "path": [
+    "Qatar",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02030",
+   "path": [
+    "Qatar",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02040",
+   "path": [
+    "Qatar",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02050",
+   "path": [
+    "Qatar",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02060",
+   "path": [
+    "Qatar",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02070",
+   "path": [
+    "Qatar",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02080",
+   "path": [
+    "Qatar",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02090",
+   "path": [
+    "Qatar",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02100",
+   "path": [
+    "Saudi Arabia",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02110",
+   "path": [
+    "Saudi Arabia",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02120",
+   "path": [
+    "Saudi Arabia",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02130",
+   "path": [
+    "Saudi Arabia",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02140",
+   "path": [
+    "Saudi Arabia",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02150",
+   "path": [
+    "Saudi Arabia",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02160",
+   "path": [
+    "Saudi Arabia",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02170",
+   "path": [
+    "Saudi Arabia",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02180",
+   "path": [
+    "Saudi Arabia",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02190",
+   "path": [
+    "Saudi Arabia",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02200",
+   "path": [
+    "Saudi Arabia",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02210",
+   "path": [
+    "Seychelles",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02220",
+   "path": [
+    "Seychelles",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02230",
+   "path": [
+    "Seychelles",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02240",
+   "path": [
+    "Seychelles",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02250",
+   "path": [
+    "Seychelles",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02260",
+   "path": [
+    "Seychelles",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02270",
+   "path": [
+    "Seychelles",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02280",
+   "path": [
+    "Seychelles",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02290",
+   "path": [
+    "Seychelles",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02300",
+   "path": [
+    "Seychelles",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02310",
+   "path": [
+    "Seychelles",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02320",
+   "path": [
+    "Singapore",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02330",
+   "path": [
+    "Singapore",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02340",
+   "path": [
+    "Singapore",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02350",
+   "path": [
+    "Singapore",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02360",
+   "path": [
+    "Singapore",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02370",
+   "path": [
+    "Singapore",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02380",
+   "path": [
+    "Singapore",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02390",
+   "path": [
+    "Singapore",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02400",
+   "path": [
+    "Singapore",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02410",
+   "path": [
+    "Singapore",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02420",
+   "path": [
+    "Singapore",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02430",
+   "path": [
+    "Bermuda",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02440",
+   "path": [
+    "Bermuda",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02450",
+   "path": [
+    "Bermuda",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02460",
+   "path": [
+    "Bermuda",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02470",
+   "path": [
+    "Bermuda",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02480",
+   "path": [
+    "Bermuda",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02490",
+   "path": [
+    "Bermuda",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02500",
+   "path": [
+    "Bermuda",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02510",
+   "path": [
+    "Bermuda",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02520",
+   "path": [
+    "Bermuda",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02530",
+   "path": [
+    "Bermuda",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02540",
+   "path": [
+    "St Pierre",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02550",
+   "path": [
+    "St Pierre",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02560",
+   "path": [
+    "St Pierre",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02570",
+   "path": [
+    "St Pierre",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02580",
+   "path": [
+    "St Pierre",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02590",
+   "path": [
+    "St Pierre",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02600",
+   "path": [
+    "St Pierre",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02610",
+   "path": [
+    "St Pierre",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02620",
+   "path": [
+    "St Pierre",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02630",
+   "path": [
+    "St Pierre",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02640",
+   "path": [
+    "St Pierre",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02650",
+   "path": [
+    "Sweden",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02660",
+   "path": [
+    "Sweden",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02670",
+   "path": [
+    "Sweden",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02680",
+   "path": [
+    "Sweden",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02690",
+   "path": [
+    "Sweden",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02700",
+   "path": [
+    "Sweden",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02710",
+   "path": [
+    "Sweden",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02720",
+   "path": [
+    "Sweden",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02730",
+   "path": [
+    "Sweden",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02740",
+   "path": [
+    "Sweden",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02750",
+   "path": [
+    "Sweden",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02760",
+   "path": [
+    "Switzerland",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02770",
+   "path": [
+    "Switzerland",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02780",
+   "path": [
+    "Switzerland",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02790",
+   "path": [
+    "Switzerland",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02800",
+   "path": [
+    "Switzerland",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02810",
+   "path": [
+    "Switzerland",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02820",
+   "path": [
+    "Switzerland",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02830",
+   "path": [
+    "Switzerland",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02840",
+   "path": [
+    "Switzerland",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02850",
+   "path": [
+    "Switzerland",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02860",
+   "path": [
+    "Switzerland",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02870",
+   "path": [
+    "Turkey",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02880",
+   "path": [
+    "Turkey",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02890",
+   "path": [
+    "Turkey",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02900",
+   "path": [
+    "Turkey",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02910",
+   "path": [
+    "Turkey",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02920",
+   "path": [
+    "Turkey",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02930",
+   "path": [
+    "Turkey",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02940",
+   "path": [
+    "Turkey",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02950",
+   "path": [
+    "Turkey",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02960",
+   "path": [
+    "Turkey",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02970",
+   "path": [
+    "Turkey",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02980",
+   "path": [
+    "UAE",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P02990",
+   "path": [
+    "UAE",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03000",
+   "path": [
+    "UAE",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03010",
+   "path": [
+    "UAE",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03020",
+   "path": [
+    "UAE",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03030",
+   "path": [
+    "UAE",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03040",
+   "path": [
+    "UAE",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03050",
+   "path": [
+    "UAE",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03060",
+   "path": [
+    "UAE",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03070",
+   "path": [
+    "UAE",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03080",
+   "path": [
+    "UAE",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03090",
+   "path": [
+    "UK",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03100",
+   "path": [
+    "UK",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03110",
+   "path": [
+    "UK",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03120",
+   "path": [
+    "UK",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03130",
+   "path": [
+    "UK",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03140",
+   "path": [
+    "UK",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03150",
+   "path": [
+    "UK",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03160",
+   "path": [
+    "UK",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03170",
+   "path": [
+    "UK",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03180",
+   "path": [
+    "UK",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03190",
+   "path": [
+    "UK",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03200",
+   "path": [
+    "Guernsey",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03210",
+   "path": [
+    "Guernsey",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03220",
+   "path": [
+    "Guernsey",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03230",
+   "path": [
+    "Guernsey",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03240",
+   "path": [
+    "Guernsey",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03250",
+   "path": [
+    "Guernsey",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03260",
+   "path": [
+    "Guernsey",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03270",
+   "path": [
+    "Guernsey",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03280",
+   "path": [
+    "Guernsey",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03290",
+   "path": [
+    "Guernsey",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03300",
+   "path": [
+    "Guernsey",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03310",
+   "path": [
+    "USA",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03320",
+   "path": [
+    "USA",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03330",
+   "path": [
+    "USA",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03340",
+   "path": [
+    "USA",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03350",
+   "path": [
+    "USA",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03360",
+   "path": [
+    "USA",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03370",
+   "path": [
+    "USA",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03380",
+   "path": [
+    "USA",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03390",
+   "path": [
+    "USA",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03400",
+   "path": [
+    "USA",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03410",
+   "path": [
+    "USA",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03420",
+   "path": [
+    "BV Island",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03430",
+   "path": [
+    "BV Island",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03440",
+   "path": [
+    "BV Island",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03450",
+   "path": [
+    "BV Island",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03460",
+   "path": [
+    "BV Island",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03470",
+   "path": [
+    "BV Island",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03480",
+   "path": [
+    "BV Island",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03490",
+   "path": [
+    "BV Island",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03500",
+   "path": [
+    "BV Island",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03510",
+   "path": [
+    "BV Island",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03520",
+   "path": [
+    "BV Island",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03530",
+   "path": [
+    "Canada",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03540",
+   "path": [
+    "Canada",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03550",
+   "path": [
+    "Canada",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03560",
+   "path": [
+    "Canada",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03570",
+   "path": [
+    "Canada",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03580",
+   "path": [
+    "Canada",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03590",
+   "path": [
+    "Canada",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03600",
+   "path": [
+    "Canada",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03610",
+   "path": [
+    "Canada",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03620",
+   "path": [
+    "Canada",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03630",
+   "path": [
+    "Canada",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03640",
+   "path": [
+    "Cayman Island",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03650",
+   "path": [
+    "Cayman Island",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03660",
+   "path": [
+    "Cayman Island",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03670",
+   "path": [
+    "Cayman Island",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03680",
+   "path": [
+    "Cayman Island",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03690",
+   "path": [
+    "Cayman Island",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03700",
+   "path": [
+    "Cayman Island",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03710",
+   "path": [
+    "Cayman Island",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03720",
+   "path": [
+    "Cayman Island",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03730",
+   "path": [
+    "Cayman Island",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03740",
+   "path": [
+    "Cayman Island",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03750",
+   "path": [
+    "China",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03760",
+   "path": [
+    "China",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03770",
+   "path": [
+    "China",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03780",
+   "path": [
+    "China",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03790",
+   "path": [
+    "China",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03800",
+   "path": [
+    "China",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03810",
+   "path": [
+    "China",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03820",
+   "path": [
+    "China",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03830",
+   "path": [
+    "China",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03840",
+   "path": [
+    "China",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03850",
+   "path": [
+    "China",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03860",
+   "path": [
+    "Cyprus",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03870",
+   "path": [
+    "Cyprus",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03880",
+   "path": [
+    "Cyprus",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03890",
+   "path": [
+    "Cyprus",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03900",
+   "path": [
+    "Cyprus",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03910",
+   "path": [
+    "Cyprus",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03920",
+   "path": [
+    "Cyprus",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03930",
+   "path": [
+    "Cyprus",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03940",
+   "path": [
+    "Cyprus",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03950",
+   "path": [
+    "Cyprus",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03960",
+   "path": [
+    "Cyprus",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03970",
+   "path": [
+    "Denmark",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03980",
+   "path": [
+    "Denmark",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P03990",
+   "path": [
+    "Denmark",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04000",
+   "path": [
+    "Denmark",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04010",
+   "path": [
+    "Denmark",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04020",
+   "path": [
+    "Denmark",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04030",
+   "path": [
+    "Denmark",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04040",
+   "path": [
+    "Denmark",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04050",
+   "path": [
+    "Denmark",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04060",
+   "path": [
+    "Denmark",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04070",
+   "path": [
+    "Denmark",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04080",
+   "path": [
+    "Egypt",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04090",
+   "path": [
+    "Egypt",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04100",
+   "path": [
+    "Egypt",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04110",
+   "path": [
+    "Egypt",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04120",
+   "path": [
+    "Egypt",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04130",
+   "path": [
+    "Egypt",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04140",
+   "path": [
+    "Egypt",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04150",
+   "path": [
+    "Egypt",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04160",
+   "path": [
+    "Egypt",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04170",
+   "path": [
+    "Egypt",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04180",
+   "path": [
+    "Egypt",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04190",
+   "path": [
+    "Finland",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04200",
+   "path": [
+    "Finland",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04210",
+   "path": [
+    "Finland",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04220",
+   "path": [
+    "Finland",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04230",
+   "path": [
+    "Finland",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04240",
+   "path": [
+    "Finland",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04250",
+   "path": [
+    "Finland",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04260",
+   "path": [
+    "Finland",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04270",
+   "path": [
+    "Finland",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04280",
+   "path": [
+    "Finland",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04290",
+   "path": [
+    "Finland",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04300",
+   "path": [
+    "France",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04310",
+   "path": [
+    "France",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04320",
+   "path": [
+    "France",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04330",
+   "path": [
+    "France",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04340",
+   "path": [
+    "France",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04350",
+   "path": [
+    "France",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04360",
+   "path": [
+    "France",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04370",
+   "path": [
+    "France",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04380",
+   "path": [
+    "France",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04390",
+   "path": [
+    "France",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04400",
+   "path": [
+    "France",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04410",
+   "path": [
+    "Germany",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04420",
+   "path": [
+    "Germany",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04430",
+   "path": [
+    "Germany",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04440",
+   "path": [
+    "Germany",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04450",
+   "path": [
+    "Germany",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04460",
+   "path": [
+    "Germany",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04470",
+   "path": [
+    "Germany",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04480",
+   "path": [
+    "Germany",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04490",
+   "path": [
+    "Germany",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04500",
+   "path": [
+    "Germany",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04510",
+   "path": [
+    "Germany",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04520",
+   "path": [
+    "Hong Kong",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04530",
+   "path": [
+    "Hong Kong",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04540",
+   "path": [
+    "Hong Kong",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04550",
+   "path": [
+    "Hong Kong",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04560",
+   "path": [
+    "Hong Kong",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04570",
+   "path": [
+    "Hong Kong",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04580",
+   "path": [
+    "Hong Kong",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04590",
+   "path": [
+    "Hong Kong",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04600",
+   "path": [
+    "Hong Kong",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04610",
+   "path": [
+    "Hong Kong",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04620",
+   "path": [
+    "Hong Kong",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04630",
+   "path": [
+    "Australia",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04640",
+   "path": [
+    "Australia",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04650",
+   "path": [
+    "Australia",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04660",
+   "path": [
+    "Australia",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04670",
+   "path": [
+    "Australia",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04680",
+   "path": [
+    "Australia",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04690",
+   "path": [
+    "Australia",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04700",
+   "path": [
+    "Australia",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04710",
+   "path": [
+    "Australia",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04720",
+   "path": [
+    "Australia",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04730",
+   "path": [
+    "Australia",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04740",
+   "path": [
+    "Other Countries",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04750",
+   "path": [
+    "Other Countries",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04760",
+   "path": [
+    "Other Countries",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04770",
+   "path": [
+    "Other Countries",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04780",
+   "path": [
+    "Other Countries",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04790",
+   "path": [
+    "Other Countries",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04800",
+   "path": [
+    "Other Countries",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04810",
+   "path": [
+    "Other Countries",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04820",
+   "path": [
+    "Other Countries",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04830",
+   "path": [
+    "Other Countries",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04840",
+   "path": [
+    "Other Countries",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04850",
+   "path": [
+    "All Countries",
+    "Inflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04860",
+   "path": [
+    "All Countries",
+    "Inflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04870",
+   "path": [
+    "All Countries",
+    "Inflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04880",
+   "path": [
+    "All Countries",
+    "Inflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04890",
+   "path": [
+    "All Countries",
+    "Inflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04900",
+   "path": [
+    "All Countries",
+    "Outflows",
+    "Equity"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04910",
+   "path": [
+    "All Countries",
+    "Outflows",
+    "T-Bills"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04920",
+   "path": [
+    "All Countries",
+    "Outflows",
+    "PIBs"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04930",
+   "path": [
+    "All Countries",
+    "Outflows",
+    "Others"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04940",
+   "path": [
+    "All Countries",
+    "Outflows"
+   ],
+   "unit": "usd",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BOP_SCRACOU_M.P04950",
+   "path": [
+    "All Countries",
+    "Net Flows"
+   ],
+   "unit": "usd",
+   "flow": false
+  }
+ ]
+}

@@ -1,0 +1,3084 @@
+{
+ "_comment": "17 ISIC industry sectors + an All-Sectors total, each broken into the identical 18-item finance-type structure (Export/Import Financing, Working Capital, Fixed Investment, Construction, Bills Purchased) \u2014 confirmed 100% regular across the full 324-row list, no exceptions. Same node-carries-own-value pattern as series_map.credit.json. UNIT PLACEHOLDER: verify PKR scale on first refresh.py run.",
+ "dataset": "Loans to Private Sector Business by Type of Finance",
+ "series": [
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00011000",
+   "path": [
+    "All Sectors"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00012000",
+   "path": [
+    "All Sectors",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00013000",
+   "path": [
+    "All Sectors",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00014000",
+   "path": [
+    "All Sectors",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00015000",
+   "path": [
+    "All Sectors",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00016000",
+   "path": [
+    "All Sectors",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00017000",
+   "path": [
+    "All Sectors",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00018000",
+   "path": [
+    "All Sectors",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00019000",
+   "path": [
+    "All Sectors",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00020000",
+   "path": [
+    "All Sectors",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00021000",
+   "path": [
+    "All Sectors",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00022000",
+   "path": [
+    "All Sectors",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00023000",
+   "path": [
+    "All Sectors",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00317000",
+   "path": [
+    "All Sectors",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00024000",
+   "path": [
+    "All Sectors",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00025000",
+   "path": [
+    "All Sectors",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00026000",
+   "path": [
+    "All Sectors",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00027000",
+   "path": [
+    "All Sectors",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00028000",
+   "path": [
+    "Agriculture; Forestry and Fishing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00029000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00030000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00031000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00032000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00033000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00034000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00035000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00036000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00037000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00038000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00039000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00040000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00318000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00041000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00042000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00043000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00044000",
+   "path": [
+    "Agriculture; Forestry and Fishing",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00045000",
+   "path": [
+    "Mining and Quarrying"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00046000",
+   "path": [
+    "Mining and Quarrying",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00047000",
+   "path": [
+    "Mining and Quarrying",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00048000",
+   "path": [
+    "Mining and Quarrying",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00049000",
+   "path": [
+    "Mining and Quarrying",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00050000",
+   "path": [
+    "Mining and Quarrying",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00051000",
+   "path": [
+    "Mining and Quarrying",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00052000",
+   "path": [
+    "Mining and Quarrying",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00053000",
+   "path": [
+    "Mining and Quarrying",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00054000",
+   "path": [
+    "Mining and Quarrying",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00055000",
+   "path": [
+    "Mining and Quarrying",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00056000",
+   "path": [
+    "Mining and Quarrying",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00057000",
+   "path": [
+    "Mining and Quarrying",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00319000",
+   "path": [
+    "Mining and Quarrying",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00058000",
+   "path": [
+    "Mining and Quarrying",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00059000",
+   "path": [
+    "Mining and Quarrying",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00060000",
+   "path": [
+    "Mining and Quarrying",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00061000",
+   "path": [
+    "Mining and Quarrying",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00062000",
+   "path": [
+    "Manufacturing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00063000",
+   "path": [
+    "Manufacturing",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00064000",
+   "path": [
+    "Manufacturing",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00065000",
+   "path": [
+    "Manufacturing",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00066000",
+   "path": [
+    "Manufacturing",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00067000",
+   "path": [
+    "Manufacturing",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00068000",
+   "path": [
+    "Manufacturing",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00069000",
+   "path": [
+    "Manufacturing",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00070000",
+   "path": [
+    "Manufacturing",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00071000",
+   "path": [
+    "Manufacturing",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00072000",
+   "path": [
+    "Manufacturing",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00073000",
+   "path": [
+    "Manufacturing",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00074000",
+   "path": [
+    "Manufacturing",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00320000",
+   "path": [
+    "Manufacturing",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00075000",
+   "path": [
+    "Manufacturing",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00076000",
+   "path": [
+    "Manufacturing",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00077000",
+   "path": [
+    "Manufacturing",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00078000",
+   "path": [
+    "Manufacturing",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00079000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00080000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00081000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00082000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00083000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00084000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00085000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00086000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00087000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00088000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00089000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00090000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00091000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00321000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00092000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00093000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00094000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00095000",
+   "path": [
+    "Electricity; Gas; Steam and Air Conditioning Supply",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00096000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00097000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00098000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00099000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00100000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00101000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00102000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00103000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00104000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00105000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00106000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00107000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00108000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00322000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00109000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00110000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00111000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00112000",
+   "path": [
+    "Water Supply; Sewerage; Waste Management and Remediation Activities",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00113000",
+   "path": [
+    "Construction"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00114000",
+   "path": [
+    "Construction",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00115000",
+   "path": [
+    "Construction",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00116000",
+   "path": [
+    "Construction",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00117000",
+   "path": [
+    "Construction",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00118000",
+   "path": [
+    "Construction",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00119000",
+   "path": [
+    "Construction",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00120000",
+   "path": [
+    "Construction",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00121000",
+   "path": [
+    "Construction",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00122000",
+   "path": [
+    "Construction",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00123000",
+   "path": [
+    "Construction",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00124000",
+   "path": [
+    "Construction",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00125000",
+   "path": [
+    "Construction",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00323000",
+   "path": [
+    "Construction",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00126000",
+   "path": [
+    "Construction",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00127000",
+   "path": [
+    "Construction",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00128000",
+   "path": [
+    "Construction",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00129000",
+   "path": [
+    "Construction",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00130000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00131000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00132000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00133000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00134000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00135000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00136000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00137000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00138000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00139000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00140000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00141000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00142000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00324000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00143000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00144000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00145000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00146000",
+   "path": [
+    "Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00147000",
+   "path": [
+    "Transportation and Storage"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00148000",
+   "path": [
+    "Transportation and Storage",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00149000",
+   "path": [
+    "Transportation and Storage",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00150000",
+   "path": [
+    "Transportation and Storage",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00151000",
+   "path": [
+    "Transportation and Storage",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00152000",
+   "path": [
+    "Transportation and Storage",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00153000",
+   "path": [
+    "Transportation and Storage",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00154000",
+   "path": [
+    "Transportation and Storage",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00155000",
+   "path": [
+    "Transportation and Storage",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00156000",
+   "path": [
+    "Transportation and Storage",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00157000",
+   "path": [
+    "Transportation and Storage",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00158000",
+   "path": [
+    "Transportation and Storage",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00159000",
+   "path": [
+    "Transportation and Storage",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00325000",
+   "path": [
+    "Transportation and Storage",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00160000",
+   "path": [
+    "Transportation and Storage",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00161000",
+   "path": [
+    "Transportation and Storage",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00162000",
+   "path": [
+    "Transportation and Storage",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00163000",
+   "path": [
+    "Transportation and Storage",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00164000",
+   "path": [
+    "Accommodation and Food Service activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00165000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00166000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00167000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00168000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00169000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00170000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00171000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00172000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00173000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00174000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00175000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00176000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00326000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00177000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00178000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00179000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00180000",
+   "path": [
+    "Accommodation and Food Service activities",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00181000",
+   "path": [
+    "Information and Communication"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00182000",
+   "path": [
+    "Information and Communication",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00183000",
+   "path": [
+    "Information and Communication",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00184000",
+   "path": [
+    "Information and Communication",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00185000",
+   "path": [
+    "Information and Communication",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00186000",
+   "path": [
+    "Information and Communication",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00187000",
+   "path": [
+    "Information and Communication",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00188000",
+   "path": [
+    "Information and Communication",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00189000",
+   "path": [
+    "Information and Communication",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00190000",
+   "path": [
+    "Information and Communication",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00191000",
+   "path": [
+    "Information and Communication",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00192000",
+   "path": [
+    "Information and Communication",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00193000",
+   "path": [
+    "Information and Communication",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00327000",
+   "path": [
+    "Information and Communication",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00194000",
+   "path": [
+    "Information and Communication",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00195000",
+   "path": [
+    "Information and Communication",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00196000",
+   "path": [
+    "Information and Communication",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00197000",
+   "path": [
+    "Information and Communication",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00198000",
+   "path": [
+    "Real Estate activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00199000",
+   "path": [
+    "Real Estate activities",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00200000",
+   "path": [
+    "Real Estate activities",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00201000",
+   "path": [
+    "Real Estate activities",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00202000",
+   "path": [
+    "Real Estate activities",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00203000",
+   "path": [
+    "Real Estate activities",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00204000",
+   "path": [
+    "Real Estate activities",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00205000",
+   "path": [
+    "Real Estate activities",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00206000",
+   "path": [
+    "Real Estate activities",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00207000",
+   "path": [
+    "Real Estate activities",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00208000",
+   "path": [
+    "Real Estate activities",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00209000",
+   "path": [
+    "Real Estate activities",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00210000",
+   "path": [
+    "Real Estate activities",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00328000",
+   "path": [
+    "Real Estate activities",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00211000",
+   "path": [
+    "Real Estate activities",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00212000",
+   "path": [
+    "Real Estate activities",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00213000",
+   "path": [
+    "Real Estate activities",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00214000",
+   "path": [
+    "Real Estate activities",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00215000",
+   "path": [
+    "Professional; Scientific and Technical activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00216000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00217000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00218000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00219000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00220000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00221000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00222000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00223000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00224000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00225000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00226000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00227000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00329000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00228000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00229000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00230000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00231000",
+   "path": [
+    "Professional; Scientific and Technical activities",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00232000",
+   "path": [
+    "Administrative and Support Service activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00233000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00234000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00235000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00236000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00237000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00238000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00239000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00240000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00241000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00242000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00243000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00244000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00330000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00245000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00246000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00247000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00248000",
+   "path": [
+    "Administrative and Support Service activities",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00249000",
+   "path": [
+    "Education"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00250000",
+   "path": [
+    "Education",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00251000",
+   "path": [
+    "Education",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00252000",
+   "path": [
+    "Education",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00253000",
+   "path": [
+    "Education",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00254000",
+   "path": [
+    "Education",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00255000",
+   "path": [
+    "Education",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00256000",
+   "path": [
+    "Education",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00257000",
+   "path": [
+    "Education",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00258000",
+   "path": [
+    "Education",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00259000",
+   "path": [
+    "Education",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00260000",
+   "path": [
+    "Education",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00261000",
+   "path": [
+    "Education",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00331000",
+   "path": [
+    "Education",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00262000",
+   "path": [
+    "Education",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00263000",
+   "path": [
+    "Education",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00264000",
+   "path": [
+    "Education",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00265000",
+   "path": [
+    "Education",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00266000",
+   "path": [
+    "Human Health and Social Work activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00267000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00268000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00269000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00270000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00271000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00272000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00273000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00274000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00275000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00276000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00277000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00278000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00332000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00279000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00280000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00281000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00282000",
+   "path": [
+    "Human Health and Social Work activities",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00283000",
+   "path": [
+    "Arts; Entertainment and Recreation"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00284000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00285000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00286000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00287000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00288000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00289000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00290000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00291000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00292000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00293000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00294000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00295000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00333000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00296000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00297000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00298000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00299000",
+   "path": [
+    "Arts; Entertainment and Recreation",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00300000",
+   "path": [
+    "Other Service Activities"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00301000",
+   "path": [
+    "Other Service Activities",
+    "Export Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00302000",
+   "path": [
+    "Other Service Activities",
+    "Export Financing",
+    "SBP Refinance Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00303000",
+   "path": [
+    "Other Service Activities",
+    "Export Financing",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00304000",
+   "path": [
+    "Other Service Activities",
+    "Import Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00305000",
+   "path": [
+    "Other Service Activities",
+    "Government Self-Employment Schemes"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00306000",
+   "path": [
+    "Other Service Activities",
+    "Working Capital"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00307000",
+   "path": [
+    "Other Service Activities",
+    "Working Capital",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00308000",
+   "path": [
+    "Other Service Activities",
+    "Working Capital",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00309000",
+   "path": [
+    "Other Service Activities",
+    "Fixed Investment / Long Term"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00310000",
+   "path": [
+    "Other Service Activities",
+    "Fixed Investment / Long Term",
+    "SBP LTFF & TERF Scheme"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00311000",
+   "path": [
+    "Other Service Activities",
+    "Fixed Investment / Long Term",
+    "Small"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00312000",
+   "path": [
+    "Other Service Activities",
+    "Fixed Investment / Long Term",
+    "Other"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00334000",
+   "path": [
+    "Other Service Activities",
+    "Construction Financing"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00313000",
+   "path": [
+    "Other Service Activities",
+    "Bills Purchased & Discounted"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00314000",
+   "path": [
+    "Other Service Activities",
+    "Bills Purchased & Discounted",
+    "Inland"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00315000",
+   "path": [
+    "Other Service Activities",
+    "Bills Purchased & Discounted",
+    "Import"
+   ],
+   "unit": "pkr",
+   "flow": false
+  },
+  {
+   "code": "TS_GP_BAM_LPVTFIN_M.LBF00316000",
+   "path": [
+    "Other Service Activities",
+    "Bills Purchased & Discounted",
+    "Foreign"
+   ],
+   "unit": "pkr",
+   "flow": false
+  }
+ ]
+}
